@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="28.6" viewBox="0 0 400 28.6">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.057" y1="0.5" x2="0.913" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#359547"/>
+      <stop offset="1" stop-color="#3ae3fe"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_872554" data-name="Grupo 872554" transform="translate(-180 -14469.4)">
+    <text id="La_importancia_del_proceso_administrativo:" data-name="La importancia del proceso administrativo:" transform="translate(211 14469.4)" fill="#12263f" font-size="18" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="19">La importancia del proceso administrativo:</tspan></text>
+    <path id="Unión_6" data-name="Unión 6" d="M8394.707,11713.942l-3.943-13.943h4.508l3.943,13.943Zm-7.437,0-3.943-13.943h4.508l3.944,13.943Zm-7.325,0L8376,11700h4.508l3.944,13.943Z" transform="translate(-8196 2773.058)" fill="url(#linear-gradient)"/>
+    <path id="Trazado_215586" data-name="Trazado 215586" d="M-134,0H190V4H104.857L101,2H-134Z" transform="translate(314 14494)" fill="#359547" opacity="0.45"/>
+  </g>
+</svg>
