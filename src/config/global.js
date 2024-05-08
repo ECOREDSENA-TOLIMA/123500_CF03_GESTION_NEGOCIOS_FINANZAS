@@ -5,15 +5,15 @@ export default {
       'Las organizaciones pueden estar satisfaciendo necesidades inmediatas, sin embargo, no están asignando tiempo para predecir estratégicamente cuáles serán las necesidades de sus clientes en el futuro. Por ello, los colaboradores que tienen un alto desempeño o aquellos con un alto potencial son indispensables para la organización, ya que puedan abordar de manera más eficaz los objetivos y necesidades comerciales, a fin de mejorar el rendimiento a largo plazo, mientras que otros ven el talento como todos en una organización.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
-    fondoBannerInterno: require('@/assets/curso/portada/fondo-banner-interno.jpg'),
+    fondoBannerInterno: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
       },
     ],
   },
@@ -119,6 +119,11 @@ export default {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
+      },
+      {
+        icono: 'fas fa-download',
+        titulo: 'Descargar CFA',
+        download: 'downloads/CFA_04_123500.zip',
       },
       {
         icono: 'fas fa-download',

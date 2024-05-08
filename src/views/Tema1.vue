@@ -7,7 +7,7 @@
         span.text-dark 1
       h1 Proceso administrativo
     p.mb-5(data-aos="fade-right") Son las funciones administrativas que, bien desarrolladas, aseguran el eficiente provecho de los recursos disponibles en la organización, así como la satisfacción de las áreas involucradas, por lo que los procesos administrativos tienen como finalidad potenciar la eficiencia, consistencia y contabilidad de sus recursos humanos, técnicos y materiales.
-    .bloque-texto-g.fondo1.p-3.p-sm-4.p-md-5(data-aos="fade-left")
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5(data-aos="fade-left")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema1/imagen1.jpg')})`}"
       )
@@ -62,7 +62,7 @@
       .col-auto
         h4.ps-5.pb-2.mb-0.fondo6 La importancia del proceso administrativo:
     p(data-aos="fade-right") Para que el mundo empresarial conserve su eficiencia en los procesos, se requiere de una buena gestión administrativa, en la que no solo se conformen con un adecuado trabajo, sino que las actividades se produzcan a través de fases y técnicas que le den norte al desempeño de los funcionarios y así alcanzar el cumplimiento de los objetivos y metas trazadas por la empresa.
-    p.mb-5(data-aos="fade-right") Aunque las definiciones de los procesos administrativos conducen a la misma finalidad de generar excelencia en las unidades administrativas que conforman una organización, lo cierto es que la importancia de utilizar los procesos administrativos radica en
+    p.mb-5(data-aos="fade-right") Aunque las definiciones de los procesos administrativos conducen a la misma finalidad de generar excelencia en las unidades administrativas que conforman una organización, lo cierto es que la importancia de utilizar los procesos administrativos radica en:
     .row.justify-content-center(data-aos="fade-up")
       .col-xl-8.col-lg-9.col-md-11.col-sm-12.col-12 
         ImagenInfografica.color-secundario.mb-5
@@ -70,45 +70,44 @@
             figure
               img(src='@/assets/curso/tema1/infografica1.svg')
 
-          .tarjeta.fondotarjeta.p-3(x="11.5%" y="92%" numero="+")
+          .tarjeta.fondotarjeta.p-3(x="9.5%" y="89%" numero="+")
             p Adaptarse de acuerdo con las necesidades y con el entorno en el que se mueve, realizando los ajustes a que diera lugar, para alcanzar el equilibrio y obtener los resultados que se esperan.
 
-          .tarjeta.fondotarjeta.p-3(x="50%" y="92%" numero="+")
+          .tarjeta.fondotarjeta.p-3(x="43%" y="89%" numero="+")
             p Variar de acuerdo con la actividad económica a la que se dedica, al producto o servicio que comercializa; esto permite que los procesos administrativos fluctúen en cada empresa dependiendo de las capacidades de quienes lideran dichas acciones administrativas.
 
-          .tarjeta.fondotarjeta.p-3(x="88.5%" y="92%" numero="+")
+          .tarjeta.fondotarjeta.p-3(x="81.5%" y="89%" numero="+")
             p Estudiar y transformar los problemas o circunstancias de riesgo en la empresa en situaciones de oportunidad; por tanto, la creación de secuencias y relaciones que entrega el proceso administrativo ofrece la coordinación y control de actividades en la empresa.
     p.text-center.mb-5(data-aos="fade-right") Aquí, algunas de las ventajas de aplicar el proceso administrativo:
     SlyderF(data-aos="fade-left").my-5(columnas="col-lg-4 col-xl-4")
       .tarjeta-avatar
         img.imgsize(src='@/assets/curso/tema1/slider2-1.svg')
-        .tarjeta.otra.fondo4
+        .tarjeta.otra.color-primario
           .text-dark.p-4
             p.text-center Permite sistematizar y controlar operaciones continuas.
-
       .tarjeta-avatar
         img.imgsize(src='@/assets/curso/tema1/slider2-2.svg')
-        .tarjeta.otra.fondo4
+        .tarjeta.otra.color-primario
           .text-dark.p-4
             p.text-center Sienta las bases para organizar el trabajo y dividirlo en departamentos y jerarquías según las necesidades y recursos de las empresas.
       .tarjeta-avatar
         img.imgsize(src='@/assets/curso/tema1/slider2-3.svg')
-        .tarjeta.otra.fondo4
+        .tarjeta.otra.color-primario
           .text-dark.p-4
             p.text-center Permite establecer un sistema de selección de personas según las necesidades de la empresa.
       .tarjeta-avatar
         img.imgsize(src='@/assets/curso/tema1/slider2-4.svg')
-        .tarjeta.otra.fondo4
+        .tarjeta.otra.color-primario
           .text-dark.p-4
             p.text-center Facilita el desarrollo de habilidades y destrezas laborales. 
       .tarjeta-avatar
         img.imgsize(src='@/assets/curso/tema1/slider2-5.svg')
-        .tarjeta.otra.fondo4
+        .tarjeta.otra.color-primario
           .text-dark.p-4
             p.text-center Permite la dirección, dando estrategia y control a quienes la conducen.
       .tarjeta-avatar
         img.imgsize(src='@/assets/curso/tema1/slider2-6.svg')
-        .tarjeta.otra.fondo4
+        .tarjeta.otra.color-primario
           .text-dark.p-4
             p.text-center Potencia el análisis de problemas para su solución.
     p.my-5.text-center(data-aos="fade-left") Ejemplo de proceso administrativo:
@@ -158,53 +157,53 @@
     SlyderF(data-aos="fade-up").my-5(columnas="col-lg-4")
       .tarjeta-avatar
         img.imgsize(src='@/assets/curso/tema1/slider3-1.svg')
-        .tarjeta.otra1.fondo4
+        .tarjeta.otra1.color-primario
           .text-dark.p-4
             p.text-center Manejo de los activos de la empresa.
       .tarjeta-avatar
         img.imgsize(src='@/assets/curso/tema1/slider3-2.svg')
-        .tarjeta.otra1.fondo4
+        .tarjeta.otra1.color-primario
           .text-dark.p-4
             p.text-center Seguridad en los procesos.
       .tarjeta-avatar
         img.imgsize(src='@/assets/curso/tema1/slider3-3.svg')
-        .tarjeta.otra1.fondo4
+        .tarjeta.otra1.color-primario
           .text-dark.p-4
             p.text-center Vestuario.
       .tarjeta-avatar
         img.imgsize(src='@/assets/curso/tema1/slider3-4.svg')
-        .tarjeta.otra1.fondo4
+        .tarjeta.otra1.color-primario
           .text-dark.p-4
             p.text-center Pautas para entrega y recepción de documentos.
       .tarjeta-avatar
         img.imgsize(src='@/assets/curso/tema1/slider3-5.svg')
-        .tarjeta.otra1.fondo4
+        .tarjeta.otra1.color-primario
           .text-dark.p-4
             p.text-center Variedad en la contratación.
       .tarjeta-avatar
         img.imgsize(src='@/assets/curso/tema1/slider3-6.svg')
-        .tarjeta.otra1.fondo4
+        .tarjeta.otra1.color-primario
           .text-dark.p-4
             p.text-center Presentación de PQRS.
       .tarjeta-avatar
         img.imgsize(src='@/assets/curso/tema1/slider3-7.svg')
-        .tarjeta.otra1.fondo4
+        .tarjeta.otra1.color-primario
           .text-dark.p-4
             p.text-center Jornada laboral.
     .row.mb-5(data-aos="fade-right")
       .col-xxl-7.col-xl-8.col-lg-12.col-md-12
         h4.ps-5.mb-0.fondo5 Beneficios que obtiene la organización con la implementación de las políticas:
     TabsA.color-acento-contenido.mb-5(data-aos="fade-up-left")
-      .tarjeta.otra2.fondo2.p-4(titulo="Reducir los costos")
+      .tarjeta.otra2.color-acento-botones.p-4(titulo="Reducir los costos")
         h4 Reducir los costos
         p Las empresas implementan políticas en circunstancias de viajes y trabajos fuera de la organización, con el fin de enviar presupuestos de viaje y obtener la aprobación de tiquetes aéreos, hospedaje, transporte y demás.  El área de talento humano le facilita al colaborador que viaja todo lo necesario a razón de economía, diluyendo cualquier posibilidad de que el colaborador pueda sacar provecho de la situación de viaje.
-      .tarjeta.otra2.fondo2.p-4(titulo="Mejorar las operaciones")
+      .tarjeta.otra2.color-acento-botones.p-4(titulo="Mejorar las operaciones")
         h4 Mejorar las operaciones
         p Algunas políticas están destinadas a ayudar a los colaboradores a comprender cómo comenzar y finalizar su jornada laboral, enviar órdenes de trabajo, usar el <i>software</i> y realizar otras tareas que ayudan a que la empresa funcione sin problemas.
-      .tarjeta.otra2.fondo2.p-4(titulo="Expresan las operaciones legales")
+      .tarjeta.otra2.color-acento-botones.p-4(titulo="Expresan las operaciones legales")
         h4 Expresan las operaciones legales
         p Es valioso dar a conocer a los colaboradores las normas y obligaciones legales. Esto puede incluir pautas para prácticas de seguridad, políticas de contratación, acoso, seguridad de datos y discriminación. Esta es una de las razones por las que las empresas hacen que sus colaboradores firmen un documento en el que indican que leyeron la guía de políticas, entendieron el contenido y aceptaron los términos. Por lo anterior, un empleado no podrá decir que desconocía estas políticas.
-      .tarjeta.otra2.fondo2.p-4(titulo="Dan a conocer los procedimientos")
+      .tarjeta.otra2.color-acento-botones.p-4(titulo="Dan a conocer los procedimientos")
         h4 Dan a conocer los procedimientos
         p Algunas políticas exponen a los colaboradores cómo operar en la empresa. Por ejemplo, la empresa puede tener cronogramas específicos para solicitar vacaciones e inscribirse en programas de beneficios. La empresa puede tener procedimientos específicos para otorgar aumentos y despedir empleados.
     p.my-5(data-aos="fade-up-right") Las políticas bien redactadas ofrecen a los colaboradores de nivel subordinado una forma de manejar problemas y conflictos al tener que involucrar constantemente a la gerencia cada vez que necesitan tomar una decisión; de esta manera, los empleados entienden las limitaciones de sus puestos de trabajo. Las políticas definen los límites de la toma de decisiones y trazan las alternativas.
@@ -273,7 +272,7 @@
 
 
     p.my-5(data-aos="fade-right") Las políticas organizacionales bien escritas promueven el cumplimiento, agilizan los procesos internos y limitan los riesgos de responsabilidad, también establecen la cultura de la empresa y guían las funciones diarias.
-    .bloque-texto-g.fondo1.p-3.p-sm-4.p-md-5(data-aos="fade-left")
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5(data-aos="fade-left")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema1/imagen3.jpg')})`}"
       )
@@ -316,37 +315,37 @@
     SlyderF(data-aos="fade-up").my-5(columnas="col-xl-4 col-lg-6")
       .tarjeta-avatar
         img.imgsize(src='@/assets/curso/tema1/slider4-1.svg')
-        .tarjeta.otra3.fondo4
+        .tarjeta.otra3.color-primario
           .text-dark.p-4
             span.text-bold Habilidades que necesita la organización: 
             span debe determinar qué tipo de contrataciones necesita y qué requisitos deben cumplir, describir las habilidades que se requieren para el desempeño del cargo, así como los conocimientos técnicos o específicos del área de trabajo. Se sugiere que, antes de contratar una nueva persona, se considere el talento humano actual, es decir, los ascensos, partiendo de la experiencia y la antigüedad que ya posee.
       .tarjeta-avatar
         img.imgsize(src='@/assets/curso/tema1/slider4-2.svg')
-        .tarjeta.otra3.fondo4
+        .tarjeta.otra3.color-primario
           .text-dark.p-4
             span.text-bold Reclutar al talento humano apropiado: 
             span utilice las herramientas necesarias para dar a conocer las vacantes que ofrece la empresa y los requisitos que se exigen; para ello, cree anuncios y publíquelos en los principales sitios de trabajo. Se recomienda realizar evaluaciones de personalidad, referencias y pruebas que requieran que los candidatos se desempeñen en situaciones de la vida real. Brinde la oportunidad de trabajo a las mejores opciones.
       .tarjeta-avatar
         img.imgsize(src='@/assets/curso/tema1/slider4-3.svg')
-        .tarjeta.otra3.fondo4
+        .tarjeta.otra3.color-primario
           .text-dark.p-4
             span.text-bold Incorporación y organización del trabajo: 
             span una vez el colaborador es parte de la empresa, el área de talento humano orienta y capacita en los procesos de la labor para que esté listo. Entregue tareas que pueda desarrollar, programe sesiones de capacitación y asigne empleados actuales para ayudar a los nuevos trabajadores a instalarse
       .tarjeta-avatar
         img.imgsize(src='@/assets/curso/tema1/slider4-4.svg')
-        .tarjeta.otra3.fondo4
+        .tarjeta.otra3.color-primario
           .text-dark.p-4
             span.text-bold Actualización de conocimientos: 
             span es más importante mantener capacitado y desarrollando habilidades al talento humano contratado, ya que será mucho más fácil ascender a una persona que conoce ya el negocio que los costos que genera reclutar nuevo personal y capacitarlo para el cargo disponible.
       .tarjeta-avatar
         img.imgsize(src='@/assets/curso/tema1/slider4-5.svg')
-        .tarjeta.otra3.fondo4
+        .tarjeta.otra3.color-primario
           .text-dark.p-4
             span.text-bold Efectúe evaluaciones de desempeño: 
             span verifique el desempeño de los empleados con regularidad, esto le permite ver si los trabajadores pueden administrar responsabilidades adicionales, además de verificar el cumplimiento de las actividades encomendadas para el logro de los objetivos de la empresa.
       .tarjeta-avatar
         img.imgsize(src='@/assets/curso/tema1/slider4-6.svg')
-        .tarjeta.otra3.fondo4
+        .tarjeta.otra3.color-primario
           .text-dark.p-4
             span.text-bold Conserve a su mejor talento: 
             span la mayoría de las empresas cuentan con los medios para retener a los colaboradores potenciales, haciendo que estos trabajen motivados en la labor encomendada, ofreciéndoles beneficios y compensaciones por las metas alcanzadas, motivando y resaltando los logros y actividades en las que se desempeñó eficientemente, asegurando la satisfacción laboral y mejorando la cultura de la empresa. 
@@ -354,20 +353,30 @@
       .col-auto
         h4.ps-5.pb-2.mb-0.fondo6 Actividades de la gestión del talento humano
     p.mb-5(data-aos="fade-left") Dentro de la gestión del talento humano, se encuentran acciones que van desde la incorporación de colaboradores, pasando por la gestión del desempeño, hasta la retención. Aquí, se presentan las actividades más relevantes de esta gestión:
-    .row.justify-content-center(data-aos="fade-left")
-      .col-xxl-8.col-xxl-8.col-lg-9.col-md-11.col-sm-12.col-12
+    
+    
+    .row.justify-content-center.mb-5(data-aos="fade-down")
+      .col-md-11.col-lg-9.col-12
         .titulo-sexto.color-acento-contenido
-          h5 Figura 2. 
-          i Actividades de la gestión del talento
-        .row.justify-content-center
-          .col-xxl-3.col-xl-3.col-lg-3.col-md-3.col-sm-3.col-3
-            img(src='@/assets/curso/tema1/actividad1.svg')
-          .col-xxl-3.col-xl-3.col-lg-3.col-md-3.col-sm-3.col-3
-            img(src='@/assets/curso/tema1/actividad2.svg')
-          .col-xxl-3.col-xl-3.col-lg-3.col-md-3.col-sm-3.col-3
-            img(src='@/assets/curso/tema1/actividad3.svg')
-          .col-xxl-3.col-xl-3.col-lg-3.col-md-3.col-sm-3.col-3
-            img(src='@/assets/curso/tema1/actividad4.svg')
+          p.titulo.pb-0.mb-0 <b>Figura 2. </b> <i>Actividades de la gestión del talento</i>
+        figure
+          img.d-none.d-sm-none.d-md-block(src='@/assets/curso/tema1/fig-1a.svg', alt='')  
+          img.d-block.d-md-none(src='@/assets/curso/tema1/fig-1b.svg', alt='') 
+
+    //- .row.justify-content-center(data-aos="fade-left")
+    //-   .col-xxl-8.col-xxl-8.col-lg-9.col-md-11.col-sm-12.col-12
+    //-     .titulo-sexto.color-acento-contenido
+    //-       h5 Figura 2. 
+    //-       i Actividades de la gestión del talento
+    //-     .row.justify-content-center
+    //-       .col-xxl-3.col-xl-3.col-lg-3.col-md-3.col-sm-3.col-3
+    //-         img(src='@/assets/curso/tema1/actividad1.svg')
+    //-       .col-xxl-3.col-xl-3.col-lg-3.col-md-3.col-sm-3.col-3
+    //-         img(src='@/assets/curso/tema1/actividad2.svg')
+    //-       .col-xxl-3.col-xl-3.col-lg-3.col-md-3.col-sm-3.col-3
+    //-         img(src='@/assets/curso/tema1/actividad3.svg')
+    //-       .col-xxl-3.col-xl-3.col-lg-3.col-md-3.col-sm-3.col-3
+    //-         img(src='@/assets/curso/tema1/actividad4.svg')
     .row.my-5(data-aos="fade-left")
       .col-auto
         h4.ps-5.pb-2.mb-0.fondo6 Modelo integrado de gestión de talento humano            
@@ -459,14 +468,14 @@
     .row.justify-content-center.my-5(data-aos="fade-left")
       .col-lg-6.col-md-11.col-sm-11.col-12.mt-3
         LineaTiempoD
-          .row(numero="1" titulo="Cada organización tiene sus propias metas únicas.")
+          .row(numero="1" titulo="Cada organización tiene sus propias metas únicas")
             .col-md-5.mt-3
               figure
                 img(src='@/assets/curso/tema1/imagen9.svg')
             .col-md-7.mb-4.mb-md-0.mt-3
               p.text-small Ya sea que se relacionen con un mejor rendimiento o mayores ingresos, sus objetivos deben estar claramente definidos y ser alcanzables. También necesita saber exactamente cómo los empleados desempeñarán un papel para ayudarlo a alcanzar sus objetivos.
 
-          .row(numero="2" titulo="Medir los resultados.")
+          .row(numero="2" titulo="Medir los resultados")
             .col-md-5.mb-4
               figure
                 img(src='@/assets/curso/tema1/imagen10.svg')
@@ -480,7 +489,7 @@
             .col-md-7.mb-4.mb-md-4
               p.text-small Necesita saber cómo colaborador cuáles serán sus obligaciones dentro de la entidad, para ello, lo que se describe en el manual de funciones, adicional a la información que entrega el líder de área, quien además le puede adicionar ciertas responsabilidades de acuerdo al cargo que ocupe.
 
-          .row(numero="4" titulo="Comunicarse con los empleados.")
+          .row(numero="4" titulo="Comunicarse con los empleados")
             .col-md-5.mb-4
               figure
                 img(src='@/assets/curso/tema1/imagen12.svg')
@@ -581,7 +590,7 @@
             | Tener presentes las leyes, reglamentos y normativa.
       .col-xxl-5.col-xxl-5.col-lg-6.col-md-11.col-sm-12.col-12
         img(src='@/assets/curso/tema1/imagen14.png')
-    p.mt-5(data-aos="fade-right") El área comercial, en la mayoría de las organizaciones, es un punto de encuentro que funciona como canal formal para las comunicaciones externas y está autorizada para acordar asuntos comerciales
+    p.mt-5(data-aos="fade-right") El área comercial, en la mayoría de las organizaciones, es un punto de encuentro que funciona como canal formal para las comunicaciones externas y está autorizada para acordar asuntos comerciales.
     .row.justify-content-center(data-aos="fade-left")
       .col-xxl-10.col-lg-10.col-md-12
         .bloque-texto-c.fondo9.p-4.my-5
@@ -681,34 +690,36 @@
             | Protección y promoción a través de tratados y acuerdos de inversión.
       .col-xxl-6.col-xxl-6.col-lg-6.col-md-11.col-sm-12.col-12
         img(src='@/assets/curso/tema1/imagen16.png')
-    h4.mt-5(data-aos="fade-right") Los acuerdos comerciales
+    .row.mb-5.mt-5(data-aos="fade-left")
+      .col-auto
+        h4.ps-5.pb-2.mb-0.fondo6 Los acuerdos comerciales
     p.mb-5(data-aos="fade-left") Los acuerdos comerciales pueden crear oportunidades para ayudar a hacer crecer la economía. Establecen reglas para las empresas que participan de estos acuerdos y que buscan hacer negocios en los mercados de todo el mundo, mediante la reducción de las barreras a las exportaciones, la protección de los intereses y la mejora del estado de derecho en los países socios del acuerdo comercial. Hay muchos tipos de acuerdos comerciales, incluyendo: 
     .tarjeta.fondo2.p-4.mb-5(data-aos="fade-right")
       SlyderA(tipo="b")
         .row.justify-content-around
-          .col-xxl-4.col-xl-4.col-lg-5.col-11.mb-4.mb-md-0
+          .col-xxl-7.col-xl-7.col-lg-7.col-11.mb-4.mb-md-0
             h4.mt-4.ms-4.mb-4 1. Acuerdos de la Organización Mundial del Comercio (OMC)
             p.ms-4 Establecen normas que rigen el comercio entre los muchos miembros de la OMC. Según lo expresado por Taylor y Feenstra (2015, p. 425), la OMC es un acuerdo multilateral entre muchos países, con el objetivo de recortar los aranceles entre todos los países miembros. Estos acuerdos cubren bienes, servicios, propiedad intelectual, estándares, inversión y otros temas que impactan el flujo de comercio, además de crear un marco legal de comercio internacional para muchísimas economías de todo el mundo.
-          .col-xxl-7.col-xl-7.col-lg-6.col-11
+          .col-xxl-5.col-xl-5.col-lg-5.col-11
             figure
               img.mt-0.mt-lg-4(src='@/assets/curso/tema1/slider2-1.png')
         .row.justify-content-around
-          .col-xxl-4.col-xl-4.col-lg-5.col-11.mb-4.mb-md-0
+          .col-xxl-7.col-xl-7.col-lg-7.col-11.mb-4.mb-md-0
             h4.mt-4.ms-4.mb-4 2. Tratados de Libre Comercio (TLC)
             p.ms-4 Se construyen sobre la base del Acuerdo de la OMC, brindando aún más protecciones y derechos a las empresas; se suscribe entre varios países cercanos. Si está buscando exportar un producto o servicio, es posible que deba negociar un trato favorable a través de un TLC, para hacerlo más fácil y económico para usted. Acceder a los beneficios del TLC para el producto también puede darles una ventaja competitiva frente a los productos de otros países.
-          .col-xxl-7.col-xl-7.col-lg-6.col-11
+          .col-xxl-5.col-xl-5.col-lg-5.col-11
             figure
               img.mt-0.mt-lg-4(src='@/assets/curso/tema1/slider2-2.png')
         .row.justify-content-around
-          .col-xxl-4.col-xl-4.col-lg-5.col-11.mb-4.mb-md-0
+          .col-xxl-7.col-xl-7.col-lg-7.col-11.mb-4.mb-md-0
             h4.mt-4.ms-4.mb-4 3. Tratados Bilaterales de Inversión (TBI)
             p.ms-4 Ayudan a proteger la inversión privada, desarrollar políticas orientadas al mercado en los países socios y promover las exportaciones de los países.
-          .col-xxl-7.col-xl-7.col-lg-6.col-11
+          .col-xxl-5.col-xl-5.col-lg-5.col-11
             figure
               img.mt-0.mt-lg-4(src='@/assets/curso/tema1/slider2-3.png')
     p.mt-5(data-aos="fade-right") Los derechos de aduana sobre las importaciones de mercancías se denominan aranceles, el arancel es considerado un impuesto que se le asigna a los bienes y servicios que provienen de otros países. Los aranceles a menudo tienen consecuencias tales como precios más altos al consumidor.
     p.mb-5(data-aos="fade-right-lef") Los aranceles se utilizan para restringir las importaciones y que, de esta manera, se compre lo que se fabrica y se produce en el país; es así como los consumidores ven menos atractivas las importaciones, debido al aumento de precio que estos productos importados poseen. Si el consumidor nacional sigue eligiendo el producto importado, el arancel esencialmente ha elevado el costo para el consumidor nacional.
-    .bloque-texto-g.fondo1.p-3.p-sm-4.p-md-5(data-aos="fade")
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5(data-aos="fade")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema1/imagen17.jpg')})`}"
       )

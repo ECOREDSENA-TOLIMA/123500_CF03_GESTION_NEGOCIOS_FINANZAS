@@ -9,7 +9,7 @@
             img(src="@/assets/curso/iconos/falso-verdadero.svg")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo(data-aos="fade-down-left")
-          h2 FORTALECIENDO LAS GESTIONES ADMINISTRATIVAS
+          h2 Fortaleciendo las gestiones administrativas
         p.mb-4(data-aos="fade-down-right") Identificar los diferentes procesos y procedimientos que realizan los colaboradores para aumentar la efectividad en las tareas diarias de las unidades administrativas de acuerdo con políticas organizacionales.
         .tarjeta.actividad.p-3(data-aos="fade-down-left")
           .row.justify-content-around.align-items-center            

@@ -36,7 +36,8 @@
         h4.ps-5.mb-1.fondo17.pb-1 Evaluación
     p(data-aos="fade-left") La evaluación de los planes y programas se enfoca en el desempeño y se usa principalmente para determinar si los beneficiarios realmente se han beneficiado debido a esas actividades. Por lo general, analiza los resultados y evalúa si se produjo un cambio entre el inicio y la finalización de un período. Idealmente, ese cambio debería poder atribuirse a las actividades realizadas.
     p.mb-5(data-aos="fade-right") Al inicio de un plan y un programa, es importante adquirir datos de referencia, que se utilizarán para comparar el progreso en cada momento de evaluación y al final del período del plan y/o programa. Al pensar en cómo medir los resultados, considere lo siguiente:
-    h1.text-center.mb-5(data-aos="fade-left") Evaluación
+    .titulo-quinto.color-primario
+      h4.color-texto Evaluación
         
     .row.justify-content-around(data-aos="fade-left")
       .col-xl-2.col-lg-3.mb-xl-0.mb-4
@@ -75,7 +76,7 @@
         .tarjeta-avatar-b.mb-5.nuevoalto
           .tarjeta-avatar-b__img
             img.imgsize3(src='@/assets/curso/tema4/avatar1.svg')
-          .tarjeta.tarjeta--azul.fondo18
+          .tarjeta.color-primario
             .p-4
               h4 Los procesos de seguimiento (recopilación de datos): 
               p Pueden significar que la organización realmente se preocupa por los resultados y la mejora continua.
@@ -85,7 +86,7 @@
         .tarjeta-avatar-b.mb-5.nuevoalto
           .tarjeta-avatar-b__img
             img.imgsize3(src='@/assets/curso/tema4/avatar2.svg')
-          .tarjeta.tarjeta--azul.fondo18
+          .tarjeta.color-primario
             .p-4
               h4 Colaboradores:
               p Puede generar más aceptación y confianza en el compromiso de la organización con la misión si hay un esfuerzo claro, no solo para evaluar el progreso, sino también para usar esa evaluación para mejorar la generación de impacto. La realización de evaluaciones también puede generar más confianza entre los colaboradores y la organización.
@@ -94,7 +95,7 @@
         .tarjeta-avatar-b.mb-5.nuevoalto
           .tarjeta-avatar-b__img
             img.imgsize3(src='@/assets/curso/tema4/avatar3.svg')
-          .tarjeta.tarjeta--azul.fondo18
+          .tarjeta.color-primario
             .p-4
               h4 Gestión ejecutiva:
               p Idealmente, la adaptación se vuelve más ágil.
@@ -104,7 +105,7 @@
         .tarjeta-avatar-b.mb-5.nuevoalto
           .tarjeta-avatar-b__img
             img.imgsize3(src='@/assets/curso/tema4/avatar4.svg')
-          .tarjeta.tarjeta--azul.fondo18
+          .tarjeta.color-primario
             .p-4
               h4 Finanzas:
               p El dinero para el impacto fluye hacia donde están los datos, y una buena implementación de monitoreo y evaluación puede abrir ese flujo, porque genera credibilidad en el impacto y, por supuesto, una comprensión más transparente de cuánto impacto se puede generar por valor de inversión.
@@ -135,10 +136,10 @@
         h4.ps-5.mb-1.fondo17.pb-1 ¿Qué es un indicador?
     p.mb-5(data-aos="fade-right") Un indicador es utilizado para medir algún aspecto de los planes, programas o proyectos en las etapas de planeación de la organización. Esto permite medir verdaderamente hasta qué punto lo que piensan o quieren que suceda realmente sucede. Los indicadores pueden ser tanto cuantitativos como cualitativos; según lo que se necesite medir y de qué manera, se puede ampliar a partir de:
     .row.justify-content-center(data-aos="fade-left")
-      .col-xxl-8.col-xl-9.col-lg-10
+      .col-12
         img.nomostrar1.my-2(src='@/assets/curso/tema4/imagencompleta.svg')
     .row.justify-content-center(data-aos="fade-right")
-      .col-md-10.col-sm-11
+      .col-12
         img.nomostrar2.my-2(src='@/assets/curso/tema4/imagen2.svg')
 
     .row.my-5(data-aos="fade-left")
@@ -148,7 +149,7 @@
     p.mb-5(data-aos="fade-left") Ahora bien, se relacionan a continuación varias perspectivas de evaluación que logran los objetivos organizacionales:
     
     .row.justify-content-center(data-aos="fade-right")
-      .col-xxl-6.col-xl-6.col-lg-7.col-md-11.col-sm-12.col-12
+      .col-lg-8.col-md-11.col-sm-12.col-12
         figure.d-lg-flex.d-none
           img(src='@/assets/curso/tema4/imagen6.svg')
         figure.d-lg-none.d-flex
@@ -179,7 +180,7 @@
         h3.text-center Rentabilidad
         p.text-center Mide la proporción porcentual entre las ventas totales y la utilidad. Relación entre la ganancia y la inversión.
 
-      .col-md.tarjeta.fondo19.p-5.mx-2.mb-4
+      .col-md.tarjeta.fondo4.p-5.mx-2.mb-4
         .row.justify-content-center.mb-4
           .col-5.col-xxl-9.col-xl-9.col-lg-8.col-md-7.col-sm-5
             figure
@@ -197,7 +198,7 @@
         h3.text-center Rotación
         p.text-center Mide la rotación de los colaboradores de la empresa; si es muy alta, es un problema que requiere revisar estrategias de retención, capacitación, entre otros.
 
-      .col-md.tarjeta.fondo19.p-5.mx-2.mb-4.col-lg-4.col-xl-3.col-xxl-3
+      .col-md.tarjeta.fondo4.p-5.mx-2.mb-4.col-lg-4.col-xl-3.col-xxl-3
         .row.justify-content-center.mb-4
           .col-5.col-xxl-9.col-xl-9.col-lg-8.col-md-7.col-sm-5
             figure
@@ -248,38 +249,38 @@
     .tarjeta.fondo2.p-4.mb-5(data-aos="fade-right")
       SlyderA(tipo="b")
         .row.justify-content-around
-          .col-xxl-4.col-xl-4.col-lg-5.col-md-11.col-sm-11.col-11.mb-4.mb-md-0
+          .col-lg-7.col-md-7.col-sm-11.col-12.mb-4.mb-md-0
             h4.mt-4.ms-0.ms-lg-4.mb-4 Diagrama de Pareto
             p.ms-0.ms-lg-4 Esta herramienta se usa para destapar los problemas y las alternativas de soluciones a realizar, ya que arroja como resultado un gráfico de barras en el que el tamaño de las barras refleja la huella de los problemas (de izquierda a derecha: impacto más alto hasta el impacto más bajo). De esta manera, ayuda a comprender hacia dónde dirigir los esfuerzos de mejora.  El propósito es disminuir las barras más grandes plasmadas en el gráfico, ya que su eliminación contribuye más a la mejora general que reducir primero las barras más pequeñas. Una opción para crear un diagrama de Pareto es a través de la herramienta ofimática de Excel, puesto que este programa ya incorpora dentro de sus gráficas el diagrama de Pareto.
-          .col-xxl-7.col-xl-7.col-lg-6.col-md-11.col-sm-11.col-11
+          .col-lg-5.col-md-11.col-sm-11.col-12
             figure
               img.mt-4(src='@/assets/curso/tema4/imagen11.png')
         .row.justify-content-around
-          .col-xxl-4.col-xl-4.col-lg-5.col-md-11.col-sm-11.col-11.mb-4.mb-md-0
+          .col-lg-7.col-md-7.col-sm-11.col-12.mb-4.mb-md-0
             h4.mt-4.ms-0.ms-lg-4.mb-4 Diagrama de dispersión
             p.ms-0.ms-lg-4 Conjunto de datos numéricos con una variable en cada eje según su relación.  Se usa ampliamente para analizar problemas, ya que muestra cómo las variables se relacionan entre sí; el eje horizontal representa el tiempo, es decir, fechas, y el eje vertical representa el tiempo calculado en días. Por ende, cada punto que se refleja en el diagrama representa una actividad, además de reflejar la correlación entre el problema y la causa, permitiendo así evaluar cuál tiene el mayor impacto y urge resolver de inmediato. Se puede realizar en Excel o PowerPoint.
-          .col-xxl-7.col-xl-7.col-lg-6.col-md-11.col-sm-11.col-11
+          .col-lg-5.col-md-11.col-sm-11.col-12
             figure
               img.mt-4(src='@/assets/curso/tema4/imagen12.png')
         .row.justify-content-around
-          .col-xxl-4.col-xl-4.col-lg-5.col-md-11.col-sm-11.col-11.mb-4.mb-md-0
+          .col-lg-7.col-md-7.col-sm-11.col-12.mb-4.mb-md-0
             h4.mt-4.ms-0.ms-lg-4.mb-4 Diagrama de espina de pescado
             p.ms-0.ms-lg-4 Diagrama de causa y efecto en forma de espina de pescado, donde el problema se representa como la cabeza del pez y las espinas representan las principales causas identificadas. Puede ser efectivo para la mejora general del proceso y útil para generar lluvia de ideas en las situaciones en que se carece de suficientes datos para respaldar los esfuerzos en la resolución de los problemas. Ofrece visualmente la existencia de un problema, sus principales causas y las divisiones de estas causas en subcausas de apoyo, además, una perspectiva de la raíz del problema, para que la organización, en cabeza del equipo que hace uso de esta herramienta, analice las acciones de mejora para mitigar y controlar la existencia de las causas que germinan el problema.
-          .col-xxl-7.col-xl-7.col-lg-6.col-md-11.col-sm-11.col-11
+          .col-lg-5.col-md-11.col-sm-11.col-12
             figure
               img.mt-4(src='@/assets/curso/tema4/imagen13.png')
         .row.justify-content-around
-          .col-xxl-4.col-xl-4.col-lg-5.col-md-11.col-sm-11.col-11.mb-4.mb-md-0
+          .col-lg-7.col-md-7.col-sm-11.col-12.mb-4.mb-md-0
             h4.mt-4.ms-0.ms-lg-4.mb-4 Método de los 5 porqués
             p.ms-0.ms-lg-4 Permite llegar a la esencia del problema y luego solucionarlo, además de lograr una mejora continua en cualquier nivel de la organización. Para efectuar este método, ha de reunirse un equipo de trabajo, para que comprendan lo que realmente sucede en el lugar de trabajo y recopilar la información necesaria para descifrar el problema, el alcance y encontrar una solución efectiva al finalizar. La pregunta se repite tantas veces como sea necesario, por parte del líder del equipo, para revelar el problema inicial y tomar las medidas necesarias para implementar la mejor acción de mejora.
-          .col-xxl-7.col-xl-7.col-lg-6.col-md-11.col-sm-11.col-11
+          .col-lg-5.col-md-11.col-sm-11.col-12
             figure
               img.mt-4(src='@/assets/curso/tema4/imagen14.png')
         .row.justify-content-around
-          .col-xxl-4.col-xl-4.col-lg-5.col-md-11.col-sm-11.col-11.mb-4.mb-md-0
+          .col-lg-7.col-md-7.col-sm-11.col-12.mb-4.mb-md-0
             h4.mt-4.ms-0.ms-lg-4.mb-4 Árbol del problema
             p.ms-0.ms-lg-4 A través del diseño de un árbol que recopila la información de lo que está pasando, por qué está pasando y qué lo provocó. Sustenta en la raíz las causas; en el tronco, presenta el problema principal; y en las ramas u hojas, los efectos como resultados de las causas. Permite establecer el problema, las causas y los efectos, para interpretar, comprender y analizar mejor el problema. Con la información que arroja el árbol del problema, permite hacer varias cosas en la planificación de las acciones de mejora.
-          .col-xxl-7.col-xl-7.col-lg-6.col-md-11.col-sm-11.col-11
+          .col-lg-5.col-md-11.col-sm-11.col-12
             figure
               img.mt-4(src='@/assets/curso/tema4/imagen15.png')
     .row.my-5(data-aos="fade-right")

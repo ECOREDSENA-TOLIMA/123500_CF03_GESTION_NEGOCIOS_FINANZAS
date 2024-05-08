@@ -10,49 +10,49 @@
     SlyderF.colorchevron.my-5(data-aos="fade-up")(columnas="col-lg-4 col-xl-4 col-md-6 col-sm-12 col-12")
       .tarjeta-avatar
         img.imgsize2(src='@/assets/curso/tema3/slider1.svg')
-        .tarjeta.otra4.fondo4
+        .tarjeta.otra4.color-primario
           .text-dark.p-4
             p.text-bold.text-center Unidades administrativas
             p.text-center Comercial, técnica, financiera, área contable, administrativa, etc.
 
       .tarjeta-avatar
         img.imgsize2(src='@/assets/curso/tema3/slider2.svg')
-        .tarjeta.otra4.fondo4
+        .tarjeta.otra4.color-primario
           .text-dark.p-4
             p.text-bold.text-center Departamentos
             p.text-center Estructura organizacional.
       .tarjeta-avatar
         img.imgsize2(src='@/assets/curso/tema3/slider3.svg')
-        .tarjeta.otra4.fondo4
+        .tarjeta.otra4.color-primario
           .text-dark.p-4
             p.text-bold.text-center Tareas
             p.text-center Descritas en el manual de funciones, manual de procedimientos, tareas, operaciones, responsabilidades, procesos.
       .tarjeta-avatar
         img.imgsize2(src='@/assets/curso/tema3/slider4.svg')
-        .tarjeta.otra4.fondo4
+        .tarjeta.otra4.color-primario
           .text-dark.p-4
             p.text-bold.text-center Funciones
             p.text-center Descritas en el manual de funciones, procesos y operaciones.
       .tarjeta-avatar
         img.imgsize2(src='@/assets/curso/tema3/slider5.svg')
-        .tarjeta.otra4.fondo4
+        .tarjeta.otra4.color-primario
           .text-dark.p-4
             p.text-bold.text-center Actividades
             p.text-center Descritas en el manual de procedimientos, procesos, procedimientos, operaciones, roles y responsabilidades.
     p.mt-5(data-aos="fade-right") El plan operativo describe el funcionamiento diario de la empresa, traza una hoja de ruta para lograr los objetivos tácticos dentro de un tiempo real. Este plan es altamente específico, con un énfasis en los objetivos a corto plazo. La creación del plan operativo es responsabilidad de los gerentes y supervisores de bajo nivel.
     p.mb-5(data-aos="fade-right") Para elaborar un plan operativo, tenga en cuenta los siguientes elementos:
     TabsA.color-acento-contenido(data-aos="fade-up")
-      .tarjeta.otra2.fondo2.p-5(titulo="Responsables de las estrategias")
+      .tarjeta.otra2.color-acento-botones.p-5(titulo="Responsables de las estrategias")
         h4 Responsables de las estrategias
         p Una vez formuladas las estrategias que permiten el logro de los objetivos, se procede a asignar responsable, es decir, para cada estrategia, alguien debe responder por su implementación. Como se habla de un plan operativo en el que el foco se apalanca en las tareas y funciones encomendadas al colaborador, el responsable se fija de acuerdo con su rol de trabajo.
-      .tarjeta.otra2.fondo2.p-5(titulo="Manejo de las finanzas")
+      .tarjeta.otra2.color-acento-botones.p-5(titulo="Manejo de las finanzas")
         h4 Manejo de las finanzas
         p Tenga en cuenta, con el diseño de las estrategias, la disponibilidad de dinero para la ejecución de las mismas, ya que habrá unas que no lo requieren como otras que, para su práctica, necesitarán de él. Muchas estrategias involucrarán costos administrativos: llamadas telefónicas, impresión y fotocopias, compras de equipos o materiales, publicidad, entre otros. Quien esté al frente de las finanzas tendrá en cuenta los costos posibles en los que se podría incurrir si se realiza una estrategia.
-      .tarjeta.otra2.fondo2.p-5(titulo="Tiempo o duración")
+      .tarjeta.otra2.color-acento-botones.p-5(titulo="Tiempo o duración")
         h4 Tiempo o duración
         p Las estrategias formuladas en el plan operativo deben contar con un período de tiempo para su implementación y el logro de los resultados. Esta duración debe ser inferior a un año; por lo general, las estrategias se miden en lapsos de días, semanas o varios meses.
         p Es indispensable que formule el tiempo para cada estrategia, lo que le permitirá ordenar las tareas que deben realizarse y priorizar aquellas que demandan mayor atención por la urgencia de su práctica.
-      .tarjeta.otra2.fondo2.p-5(titulo="Medidas preventivas y correctivas")
+      .tarjeta.otra2.color-acento-botones.p-5(titulo="Medidas preventivas y correctivas")
         h4 Medidas preventivas y correctivas
         p Se utilizan para establecer acciones que requieran utilizarse en caso de que las estrategias no estén otorgando los resultados esperados, es decir, una forma de asegurar el camino hacia lo que desea la empresa. Estas pueden efectuarse según los datos que suministren el seguimiento y el control.
 
@@ -65,7 +65,7 @@
         .titulo-sexto.color-acento-contenido
           h5 Figura 5. 
           i Objetivos a corto plazo 
-        img(src='@/assets/curso/tema3/figura1.svg')
+        img(src='@/assets/curso/tema3/figura1.svg' alt="Objetivos a corto plazo: Operaciones, Objetivos operativos, Actividades y tareas, Planes operativos")
     p.mt-5(data-aos="fade-up") La asignación y gestión de recursos es fundamental en la planeación operativa porque indicará el presupuesto que se necesita para poner en marcha el plan, es decir, se identificará cuánto dinero requiere. A veces, se deben hacer ajustes para evitar el fracaso, y otras veces, deberá ajustar su plan para los próximos pasos, porque finalmente ha alcanzado sus límites estratégicos.
     p.mb-5(data-aos="fade-right") Quien lleve a cabo la formulación de un plan operativo tendrá en cuenta los siguientes elementos de la organización:
     .row.justify-content-center(data-aos="fade-left")
@@ -141,27 +141,27 @@
     SlyderF.colorchevron.my-5(data-aos="fade-up")(columnas="col-lg-4 col-xl-4 col-md-6 col-sm-12 col-12")
       .tarjeta-avatar
         img.imgsize2(src='@/assets/curso/tema3/slider3-1.svg')
-        .tarjeta.hg-01.fondo4
+        .tarjeta.hg-01.color-primario
           .text-dark.p-4
             p.text-center Los objetivos cortos han de ser concretos, es decir, visiblemente precisos.
       .tarjeta-avatar
         img.imgsize2(src='@/assets/curso/tema3/slider3-2.svg')
-        .tarjeta.hg-01.fondo4
+        .tarjeta.hg-01.color-primario
           .text-dark.p-4
             p.text-center Las acciones y actividades deben apuntar al logro de los resultados deseados.
       .tarjeta-avatar
         img.imgsize2(src='@/assets/curso/tema3/slider3-3.svg')
-        .tarjeta.hg-01.fondo4
+        .tarjeta.hg-01.color-primario
           .text-dark.p-4
             p.text-center Las actividades se producirán según lo acordado en el plan operativo.
       .tarjeta-avatar
         img.imgsize2(src='@/assets/curso/tema3/slider3-4.svg')
-        .tarjeta.hg-01.fondo4
+        .tarjeta.hg-01.color-primario
           .text-dark.p-4
             p.text-center Los planes operativos ofrecen medir el desempeño de cada colaborador y transformar los procedimientos que retrasan el accionar de la empresa.
       .tarjeta-avatar
         img.imgsize2(src='@/assets/curso/tema3/slider3-5.svg')
-        .tarjeta.hg-01.fondo4
+        .tarjeta.hg-01.color-primario
           .text-dark.p-4
             p.text-center Los objetivos cortos que se formulan en el plan operativo han de monitorear los estándares de calidad.
     .row.mb-5(data-aos="fade-right")

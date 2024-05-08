@@ -42,9 +42,10 @@
           p El plan táctico describe las tácticas que la organización planea usar para lograr las ambiciones descritas en el plan estratégico. Es un documento de mediano alcance (más de un año), de bajo nivel, que responde a cómo voy hacer, cómo voy a ejecutar, cómo voy a lograr la meta y alcanzar los objetivos que se esbozan en los planes estratégicos. La creación de planes tácticos suele estar a cargo de gerentes de nivel medio.
           p El plan táctico incluye los planes de acción para alcanzar las metas/objetivos estratégicos que conducen al logro de planes estratégicos. Estos son más generales o más amplios que los planes operativos.
     .row.justify-content-center(data-aos="fade-left")
-      .col-xxl-6.col-xl-6.col-lg-6.col-md-8
-        h4.color-texto.text-center Para elaborar un plan táctico, tenga en cuenta los siguientes elementos:
-        img(src='@/assets/curso/tema2/subraya.svg')
+      .col-12
+        .titulo-quinto.color-primario
+          h4.color-texto Para elaborar un plan táctico, tenga en cuenta los siguientes elementos:
+
     .tabla-c.my-5(data-aos="fade-right")
       table
         tr
@@ -57,7 +58,7 @@
             h4 Presupuesto
           td 
             p El plan táctico debe relacionar el presupuesto que requiere para lograr los objetivos trazados en el plan estratégico. Esto debe incluir el presupuesto para:
-            ul.lista-ul
+            ul.lista-ul.ms-2
               li 
                 i.lista-ul__vineta
                 | Contratación de personal.
@@ -124,7 +125,7 @@
         img.m-auto(src='@/assets/curso/tema2/responsable.svg' style="width: 80px")
         p.mt-3.text-center Responsable
       .col-lg.col-4.mb-lg-0.mb-4
-        img.me-5.me-sm-0(src='@/assets/curso/tema2/cronograma.svg' style="width: 80px")
+        img.m-auto(src='@/assets/curso/tema2/cronograma.svg' style="width: 80px")
         p.mt-3.text-center Cronograma 
 
     p.my-4(data-aos="fade-right") Por lo general, se crea un plan táctico cuando la organización quiere abordar una meta a corto plazo que desea alcanzar en un año o menos. Sin embargo, también debería ayudar a la empresa a lograr sus objetivos a mediano o largo plazo.  
@@ -150,43 +151,94 @@
       .col-auto
         h4.ps-5.pb-2.mb-0.fondo6 Puntos claves de un plan táctico
     p.mb-5(data-aos="fade-right") Los planes tácticos están hechos para desempeñar lo descrito en el plan estratégico, a través de acciones y estrategias específicas, con instrucciones claras y definición de los pasos necesarios para asegurar que todos los involucrados hablen el mismo idioma en cuanto a las operaciones que deben encauzar para desarrollar la visión estratégica, así:
-    .row.justify-content-center.mt-5(data-aos="fade-left")
-      .col-xxl-3.col-xl-3.col-lg-4.col-md-5.col-sm-6.col-10.mb-4
-        .tarjeta.tarjeta-slide.abajo.fondo15(@mouseover="indicadorTarjetaSlide = false")
-          .tarjeta-slide__contenedor.px-3.py-2
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema2/flip1.svg')})`}")
-            .tarjeta-slide__contenido
-              span.text-bold Objetivos específicos: 
-              span los objetivos incluidos en un plan táctico deben ser objetivos a mediano plazo, que se puedan lograr en un año o más.
-      .col-xxl-3.col-xl-3.col-lg-4.col-md-5.col-sm-6.col-10.mb-4
-        .tarjeta.tarjeta-slide.arriba.fondo16.mb-0(@mouseover="indicadorTarjetaSlide = false")
-          .tarjeta-slide__contenedor.px-3.py-2
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema2/flip2.svg')})`}")
-            .tarjeta-slide__contenido
-              span.text-bold Pasos a seguir para alcanzar esos objetivos: 
-              span una táctica es una estrategia que se utiliza para lograr cada objetivo que se crea en un plan táctico. Por lo general, las tácticas no tienen plazos, sino que simplemente están ahí para respaldar su capacidad de alcanzar cada objetivo.
-      .col-xxl-3.col-xl-3.col-lg-4.col-md-5.col-sm-6.col-10.mb-4
-        .tarjeta.tarjeta-slide.derecha.fondo15.mb-5(@mouseover="indicadorTarjetaSlide = false")
-          .tarjeta-slide__contenedor.px-3.py-2
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema2/flip3.svg')})`}")
-            .tarjeta-slide__contenido
-              span.text-bold Otro elemento clave de un plan táctico son las acciones que se llevarán a cabo para alcanzar cada objetivo: 
-              span las acciones son pasos específicos o tareas que deben completarse para acercarse a la finalización de una meta.
-    .row.justify-content-center.mb-5(data-aos="fade-up")
-      .col-xxl-3.col-xl-3.col-lg-4.col-md-5.col-sm-6.col-10.mb-4
-        .tarjeta.tarjeta-slide.arriba.fondo16.mb-5(@mouseover="indicadorTarjetaSlide = false")
-          .tarjeta-slide__contenedor.px-3.py-2
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema2/flip4.svg')})`}")
-            .tarjeta-slide__contenido
-              span.text-bold Recursos necesarios: 
-              span para ejecutar las acciones que permitan alcanzar los objetivos trazados.
-      .col-xxl-3.col-xl-3.col-lg-4.col-md-5.col-sm-6.col-10.mb-4
-        .tarjeta.tarjeta-slide.arriba.fondo16(@mouseover="indicadorTarjetaSlide = false")
-          .tarjeta-slide__contenedor.px-4.pb-5.mb-5.py-2
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema2/flip5.svg')})`}")
-            .tarjeta-slide__contenido
-              span.text-bold Cronograma: 
-              span cada tarea o acción que forma parte de un plan táctico debe tener una fecha límite.
+    
+    //- .row.justify-content-center.mt-5(data-aos="fade-left")
+    //-   .col-xxl-3.col-xl-3.col-lg-4.col-md-5.col-sm-6.col-10.mb-4
+    //-     .tarjeta.tarjeta-slide.abajo.fondo15(@mouseover="indicadorTarjetaSlide = false")
+    //-       .tarjeta-slide__contenedor.px-3.py-2
+    //-         .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema2/flip1.svg')})`}")
+    //-         .tarjeta-slide__contenido
+    //-           span.text-bold Objetivos específicos: 
+    //-           span los objetivos incluidos en un plan táctico deben ser objetivos a mediano plazo, que se puedan lograr en un año o más.
+    //-   .col-xxl-3.col-xl-3.col-lg-4.col-md-5.col-sm-6.col-10.mb-4
+    //-     .tarjeta.tarjeta-slide.arriba.fondo16.mb-0(@mouseover="indicadorTarjetaSlide = false")
+    //-       .tarjeta-slide__contenedor.px-3.py-2
+    //-         .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema2/flip2.svg')})`}")
+    //-         .tarjeta-slide__contenido
+    //-           span.text-bold Pasos a seguir para alcanzar esos objetivos: 
+    //-           span una táctica es una estrategia que se utiliza para lograr cada objetivo que se crea en un plan táctico. Por lo general, las tácticas no tienen plazos, sino que simplemente están ahí para respaldar su capacidad de alcanzar cada objetivo.
+    //-   .col-xxl-3.col-xl-3.col-lg-4.col-md-5.col-sm-6.col-10.mb-4
+    //-     .tarjeta.tarjeta-slide.arriba.fondo16.mb-5(@mouseover="indicadorTarjetaSlide = false")
+    //-       .tarjeta-slide__contenedor.px-3.py-2
+    //-         .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema2/flip3.svg')})`}")
+    //-         .tarjeta-slide__contenido
+    //-           span.text-bold Otro elemento clave de un plan táctico son las acciones que se llevarán a cabo para alcanzar cada objetivo: 
+    //-           span las acciones son pasos específicos o tareas que deben completarse para acercarse a la finalización de una meta.
+    //- .row.justify-content-center.mb-5(data-aos="fade-up")
+    //-   .col-xxl-3.col-xl-3.col-lg-4.col-md-5.col-sm-6.col-10.mb-4
+    //-     .tarjeta.tarjeta-slide.arriba.fondo16.mb-5(@mouseover="indicadorTarjetaSlide = false")
+    //-       .tarjeta-slide__contenedor.px-3.py-2
+    //-         .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema2/flip4.svg')})`}")
+    //-         .tarjeta-slide__contenido
+    //-           span.text-bold Recursos necesarios: 
+    //-           span para ejecutar las acciones que permitan alcanzar los objetivos trazados.
+    //-   .col-xxl-3.col-xl-3.col-lg-4.col-md-5.col-sm-6.col-10.mb-4
+    //-     .tarjeta.tarjeta-slide.arriba.fondo16(@mouseover="indicadorTarjetaSlide = false")
+    //-       .tarjeta-slide__contenedor.px-4.pb-5.mb-5.py-2
+    //-         .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema2/flip5.svg')})`}")
+    //-         .tarjeta-slide__contenido
+    //-           span.text-bold Cronograma: 
+    //-           span cada tarea o acción que forma parte de un plan táctico debe tener una fecha límite.
+
+
+    .row.justify-content-center.mb-5.md-px-5
+      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0.mt-2
+        .crd_hover_txt(data-aos="flip-left")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/tema2/new_1.png", alt="alt")
+          .crd_hover_txt--body
+            h4.mb-4 Objetivos Específicos
+            p.mb-0 Con este tipo de reportes, los gerentes podrán supervisar específicamente, la labor de cada vendedor y de esta manera, saber en qué les va bien y en cuáles actos hay que mejorar. Aquí también, va a encontrar si su fuerza de ventas está entendiendo sus estrategias y le sea más fácil incentivarlos a aumentar su productividad.
+
+      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0.mt-2
+        .crd_hover_txt(data-aos="flip-left")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/tema2/new_2.png", alt="alt")
+          .crd_hover_txt--body
+            h4.mb-4 Pasos a seguir para alcanzar esos objetivos
+            p.mb-0 Con estos reportes semanales, podrá encontrar las dificultades que pueda tener algún o algunos vendedores y evitar que se pierdan los clientes fijos. Reportar semanalmente, le permite tener un equipo de ventas fortalecido y bien direccionado, con las correcciones necesarias para lograr las metas de ventas propuestas.
+
+      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0.mt-2
+        .crd_hover_txt(data-aos="flip-left")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/tema2/new_3.png", alt="alt")
+          .crd_hover_txt--body
+            h4.mb-4 Acciones que se llevarán a cabo para alcanzar cada objetivo
+            p.mb-0 Con este tipo de reportes usted va a hacer un seguimiento específico a su equipo de ventas respecto a sus objetivos empresariales a largo plazo.
+
+      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0.mt-2
+        .crd_hover_txt(data-aos="flip-left")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/tema2/new_4.png", alt="alt")
+          .crd_hover_txt--body
+            h4.mb-4 Recursos necesarios
+            p.mb-0 Con estos reportes semanales, podrá encontrar las dificultades que pueda tener algún o algunos vendedores y evitar que se pierdan los clientes fijos. Reportar semanalmente, le permite tener un equipo de ventas fortalecido y bien direccionado, con las correcciones necesarias para lograr las metas de ventas propuestas.
+
+      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0.mt-2
+        .crd_hover_txt(data-aos="flip-left")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/tema2/new_5.png", alt="alt")
+          .crd_hover_txt--body
+            h4.mb-4 Cronograma
+            p.mb-0 Con este tipo de reportes usted va a hacer un seguimiento específico a su equipo de ventas respecto a sus objetivos empresariales a largo plazo.
+
+
+
 
     p.mb-5(data-aos="fade-right") Diferencias entre la planeación estratégica y la planeación táctica
 
@@ -258,6 +310,7 @@ export default {
   },
   data: () => ({
     // variables de vue
+    indicadorTarjetaSlide: true,
   }),
   mounted() {
     this.$nextTick(() => {
