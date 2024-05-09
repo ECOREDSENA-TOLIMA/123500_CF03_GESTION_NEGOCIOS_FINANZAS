@@ -192,7 +192,7 @@
             p.text-center Jornada laboral.
     .row.mb-5(data-aos="fade-right")
       .col-xxl-7.col-xl-8.col-lg-12.col-md-12
-        h4.ps-5.mb-0.fondo5 Beneficios que obtiene la organización con la implementación de las políticas:
+        h4.ps-5.mb-0.pb-xl-2.fondo5 Beneficios que obtiene la organización con la implementación de las políticas:
     TabsA.color-acento-contenido.mb-5(data-aos="fade-up-left")
       .tarjeta.otra2.color-acento-botones.p-4(titulo="Reducir los costos")
         h4 Reducir los costos
@@ -473,28 +473,28 @@
               figure
                 img(src='@/assets/curso/tema1/imagen9.svg')
             .col-md-7.mb-4.mb-md-0.mt-3
-              p.text-small Ya sea que se relacionen con un mejor rendimiento o mayores ingresos, sus objetivos deben estar claramente definidos y ser alcanzables. También necesita saber exactamente cómo los empleados desempeñarán un papel para ayudarlo a alcanzar sus objetivos.
+              p Ya sea que se relacionen con un mejor rendimiento o mayores ingresos, sus objetivos deben estar claramente definidos y ser alcanzables. También necesita saber exactamente cómo los empleados desempeñarán un papel para ayudarlo a alcanzar sus objetivos.
 
           .row(numero="2" titulo="Medir los resultados")
             .col-md-5.mb-4
               figure
                 img(src='@/assets/curso/tema1/imagen10.svg')
             .col-md-7.mb-4.mb-md-4
-              p.text-small Necesita saber cómo medir los resultados para ver si su estrategia está funcionando. Defina las métricas que usará y con qué frecuencia tomará medidas.
+              p Necesita saber cómo medir los resultados para ver si su estrategia está funcionando. Defina las métricas que usará y con qué frecuencia tomará medidas.
 
           .row(numero="3" titulo="Asignar responsabilidades")
             .col-md-5.mb-4
               figure
                 img(src='@/assets/curso/tema1/imagen11.svg')
             .col-md-7.mb-4.mb-md-4
-              p.text-small Necesita saber cómo colaborador cuáles serán sus obligaciones dentro de la entidad, para ello, lo que se describe en el manual de funciones, adicional a la información que entrega el líder de área, quien además le puede adicionar ciertas responsabilidades de acuerdo al cargo que ocupe.
+              p Necesita saber cómo colaborador cuáles serán sus obligaciones dentro de la entidad, para ello, lo que se describe en el manual de funciones, adicional a la información que entrega el líder de área, quien además le puede adicionar ciertas responsabilidades de acuerdo al cargo que ocupe.
 
           .row(numero="4" titulo="Comunicarse con los empleados")
             .col-md-5.mb-4
               figure
                 img(src='@/assets/curso/tema1/imagen12.svg')
             .col-md-7
-              p.text-small No olvide que interactuar como equipo mantiene la claridad de lo que se desea lograr y asimismo el colaborador entiende que la exigencia está ligada con el desempeño que se espera de él. Hable con ellos sobre sus objetivos profesionales para asegurarse de que su empresa esté creando las oportunidades adecuadas.
+              p No olvide que interactuar como equipo mantiene la claridad de lo que se desea lograr y asimismo el colaborador entiende que la exigencia está ligada con el desempeño que se espera de él. Hable con ellos sobre sus objetivos profesionales para asegurarse de que su empresa esté creando las oportunidades adecuadas.
 
       .col-lg-6.col-md-11.col-sm-11.col-12.mt-3
         img(src='@/assets/curso/tema1/imagen8.png')
@@ -593,9 +593,15 @@
     p.mt-5(data-aos="fade-right") El área comercial, en la mayoría de las organizaciones, es un punto de encuentro que funciona como canal formal para las comunicaciones externas y está autorizada para acordar asuntos comerciales.
     .row.justify-content-center(data-aos="fade-left")
       .col-xxl-10.col-lg-10.col-md-12
-        .bloque-texto-c.fondo9.p-4.my-5
-          i.fas.fa-quote-right
-          h4.m-2 De acuerdo con el pensamiento de Taylor y Feenstra (2015, p. 43), las barreras comerciales son el conjunto de elementos que influyen sobre los bienes y servicios que se intercambian entre países. Por lo anterior, es apreciable que las barreras comerciales sean perjudiciales para la economía mundial y disminuyan la eficiencia económica general, dejando un bloqueo o acuerdo político que limita la capacidad de exportación o importación de un país extranjero.
+        //- .bloque-texto-c.fondo9.p-4.my-5
+        //-   i.fas.fa-quote-right
+        //-   h4.m-2 De acuerdo con el pensamiento de Taylor y Feenstra (2015, p. 43), las barreras comerciales son el conjunto de elementos que influyen sobre los bienes y servicios que se intercambian entre países. Por lo anterior, es apreciable que las barreras comerciales sean perjudiciales para la economía mundial y disminuyan la eficiencia económica general, dejando un bloqueo o acuerdo político que limita la capacidad de exportación o importación de un país extranjero.
+        .bloque-texto-e.fondo9.p-4.my-4.mb-5
+          .bloque-texto-e__texto
+            i.fas.fa-quote-left
+            h4.m-2 De acuerdo con el pensamiento de Taylor y Feenstra (2015, p. 43), las barreras comerciales son el conjunto de elementos que influyen sobre los bienes y servicios que se intercambian entre países. Por lo anterior, es apreciable que las barreras comerciales sean perjudiciales para la economía mundial y disminuyan la eficiencia económica general, dejando un bloqueo o acuerdo político que limita la capacidad de exportación o importación de un país extranjero.
+            i.fas.fa-quote-right
+    
     .row.mb-5(data-aos="fade-right")
       .col-auto
         h4.ps-5.pb-2.mb-0.fondo6 Comercio internacional
@@ -651,9 +657,14 @@
         h4.text-center Balanza comercial = valor de las exportaciones - valor de las importaciones
     .row.justify-content-center(data-aos="fade-right")
       .col-xxl-10.col-lg-10.col-md-12
-        .bloque-texto-c.fondo9.p-4.my-5
-          i.fas.fa-quote-right
-          h4.m-2 Taylor y Feenstra (2015, p. 35) definen la balanza comercial de acuerdo con el cálculo diferencial entre el valor total de las exportaciones de un país y el valor total de las importaciones, y está influida por las condiciones macroeconómicas del país. Todos los países están llamados a comercializar entre ellos para subsanar la falta de productos o servicios.
+        .bloque-texto-e.fondo9.p-4.my-4.mb-5
+          .bloque-texto-e__texto
+            i.fas.fa-quote-left
+            h4.m-2 Taylor y Feenstra (2015, p. 35) definen la balanza comercial de acuerdo con el cálculo diferencial entre el valor total de las exportaciones de un país y el valor total de las importaciones, y está influida por las condiciones macroeconómicas del país. Todos los países están llamados a comercializar entre ellos para subsanar la falta de productos o servicios.
+            i.fas.fa-quote-right
+        //- .bloque-texto-c.fondo9.p-4.my-5
+        //-   i.fas.fa-quote-right
+        //-   h4.m-2 Taylor y Feenstra (2015, p. 35) definen la balanza comercial de acuerdo con el cálculo diferencial entre el valor total de las exportaciones de un país y el valor total de las importaciones, y está influida por las condiciones macroeconómicas del país. Todos los países están llamados a comercializar entre ellos para subsanar la falta de productos o servicios.
     .row.mb-5(data-aos="fade-left")
       .col-auto
         h4.ps-5.pb-2.mb-0.fondo6 Política comercial

@@ -198,7 +198,10 @@
             figure
               img(src="@/assets/curso/tema2/new_1.png", alt="alt")
           .crd_hover_txt--body
-            h4.mb-4 Objetivos Específicos
+            ul.lista-ul--color
+              li.mb-4
+                i.ico-open-task
+                h4 Objetivos Específicos
             p.mb-0 Con este tipo de reportes, los gerentes podrán supervisar específicamente, la labor de cada vendedor y de esta manera, saber en qué les va bien y en cuáles actos hay que mejorar. Aquí también, va a encontrar si su fuerza de ventas está entendiendo sus estrategias y le sea más fácil incentivarlos a aumentar su productividad.
 
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0.mt-2
@@ -207,7 +210,10 @@
             figure
               img(src="@/assets/curso/tema2/new_2.png", alt="alt")
           .crd_hover_txt--body
-            h4.mb-4 Pasos a seguir para alcanzar esos objetivos
+            ul.lista-ul--color
+              li.mb-4
+                i.ico-open-task
+                h4 Pasos a seguir para alcanzar esos objetivos
             p.mb-0 Con estos reportes semanales, podrá encontrar las dificultades que pueda tener algún o algunos vendedores y evitar que se pierdan los clientes fijos. Reportar semanalmente, le permite tener un equipo de ventas fortalecido y bien direccionado, con las correcciones necesarias para lograr las metas de ventas propuestas.
 
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0.mt-2
@@ -216,7 +222,10 @@
             figure
               img(src="@/assets/curso/tema2/new_3.png", alt="alt")
           .crd_hover_txt--body
-            h4.mb-4 Acciones que se llevarán a cabo para alcanzar cada objetivo
+            ul.lista-ul--color
+              li.mb-4
+                i.ico-open-task
+                h4 Acciones que se llevarán a cabo para alcanzar cada objetivo
             p.mb-0 Con este tipo de reportes usted va a hacer un seguimiento específico a su equipo de ventas respecto a sus objetivos empresariales a largo plazo.
 
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0.mt-2
@@ -225,7 +234,10 @@
             figure
               img(src="@/assets/curso/tema2/new_4.png", alt="alt")
           .crd_hover_txt--body
-            h4.mb-4 Recursos necesarios
+            ul.lista-ul--color
+              li.mb-4
+                i.ico-open-task
+                h4 Recursos necesarios
             p.mb-0 Con estos reportes semanales, podrá encontrar las dificultades que pueda tener algún o algunos vendedores y evitar que se pierdan los clientes fijos. Reportar semanalmente, le permite tener un equipo de ventas fortalecido y bien direccionado, con las correcciones necesarias para lograr las metas de ventas propuestas.
 
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0.mt-2
@@ -234,16 +246,19 @@
             figure
               img(src="@/assets/curso/tema2/new_5.png", alt="alt")
           .crd_hover_txt--body
-            h4.mb-4 Cronograma
+            ul.lista-ul--color
+              li.mb-4
+                i.ico-open-task
+                h4 Cronograma
             p.mb-0 Con este tipo de reportes usted va a hacer un seguimiento específico a su equipo de ventas respecto a sus objetivos empresariales a largo plazo.
 
 
 
 
-    p.mb-5(data-aos="fade-right") Diferencias entre la planeación estratégica y la planeación táctica
+    p.mb-5(data-aos="fade-right") Diferencias entre la planeación estratégica y la planeación táctica:
 
     .tabla-c(data-aos="fade-left")
-      table
+      table.table-bordered
         tr
           th.fondoEncabezado 
             h3 Planeación estratégica

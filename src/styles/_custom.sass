@@ -53,9 +53,11 @@
 
 .fondo5
   background-image: url('../assets/curso/tema1/figura2.svg')
-  background-size: cover
+  background-size: contain
   background-repeat: no-repeat
   background-position: left
+  width: -moz-fit-content
+  width: fit-content
 
 .fondo6
   background-image: url('../assets/curso/tema1/figura2.svg')
@@ -356,6 +358,10 @@
 .tabla-c td:first-child
   width: 16%
 
+.tabla-c
+  td,th
+    border-left: 1px solid #dee2e6 !important
+
 .colorborde
   border: 1px solid #437C43
 
@@ -415,7 +421,7 @@
 
 @media (max-width: 1400px)
   .fondo5
-    background-size: cover
+    // background-size: cover
     background-position: bottom
   .fondo6
     background-size: 100% 100%
@@ -604,3 +610,13 @@
     .crd_hover_txt--body
       p
         font-size: 0.85em
+
+
+.ico-open-task
+  background-image: url('../assets/curso/tema1/open.svg')
+  background-repeat: no-repeat
+  background-size: 25px 25px
+  border: none
+  top: -3px !important
+  margin-right: 7px !important
+  padding: 13px
