@@ -3,7 +3,7 @@ export default {
     componenteFormativo: 'Estrategias de planeación y evaluación',
     descripcionCurso:
       'Las organizaciones pueden estar satisfaciendo necesidades inmediatas, sin embargo, no están asignando tiempo para predecir estratégicamente cuáles serán las necesidades de sus clientes en el futuro. Por ello, los colaboradores que tienen un alto desempeño o aquellos con un alto potencial son indispensables para la organización, ya que puedan abordar de manera más eficaz los objetivos y necesidades comerciales, a fin de mejorar el rendimiento a largo plazo, mientras que otros ven el talento como todos en una organización.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     fondoBannerInterno: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -14,6 +14,10 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
     ],
   },
@@ -123,7 +127,7 @@ export default {
       {
         icono: 'fas fa-download',
         titulo: 'Descargar CFA',
-        download: 'downloads/CFA_04_123500.zip',
+        download: 'downloads/CFA_03_123500.zip',
       },
       {
         icono: 'fas fa-download',
@@ -140,25 +144,23 @@ export default {
   referencias: [
     {
       referencia:
-        'Luna, A. (2015). Proceso administrativo. Grupo Editorial Patria.',
+        'Luna, A. (2015). <em>Proceso administrativo.</em> Grupo Editorial Patria.',
       link:
         'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/39415?page=59',
     },
     {
       referencia:
-        'Reinoso, J. y Uribe, M. (2009). Los indicadores de gestión y su relación con la cultura organizacional. Sello Editorial Universidad del Tolima.',
+        'Reinoso, J. y Uribe, M. (2009). <em>Los indicadores de gestión y su relación con la cultura organizacional.</em> Sello Editorial Universidad del Tolima.',
       link:
         'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/71131?page=17',
     },
     {
       referencia:
-        'Taylor, A. y Feenstra, R. (2015). Comercio internacional. Editorial Reverté.',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/46774?page=43',
+        'Taylor, A. y Feenstra, R. (2015). <em>Comercio internacional.</em> Editorial Reverté.',
     },
     {
       referencia:
-        'Torres, Z. (2015). Planeación y control. Grupo Editorial Patria.',
+        'Torres, Z. (2015). <em>Planeación y control.</em> Grupo Editorial Patria.',
       link:
         'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/39408?page=211',
     },
@@ -247,10 +249,9 @@ export default {
     {
       tema: 'Monitoreo y evaluación ',
       referencia:
-        'Rodríguez, E. (2016). Planificación estratégica. Fundamentos y herramientas de actuación. Editorial Brujas.',
+        'Rodríguez, E. (2016). Planificación estratégica. <em>Fundamentos y herramientas de actuación.</em> Editorial Brujas.',
       tipo: 'Libro',
-      link:
-        'https://www-digitaliapublishing-com.bdigital.sena.edu.co/visor/41904 ',
+      link: 'https://revistas.unne.edu.ar/index.php/crn/article/view/3531',
     },
   ],
   creditos: [

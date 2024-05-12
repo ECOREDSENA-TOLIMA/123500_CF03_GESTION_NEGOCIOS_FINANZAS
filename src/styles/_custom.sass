@@ -1,16 +1,22 @@
 .banner-principal-decorativo
   &-1
-    animation: float2 3.5s ease-in-out infinite alternate
+    animation: float2 2.2s ease-in-out infinite alternate
     position: absolute
     top: 25%
-    right: 35%
-    width: 20%
+    right: 28%
+    width: 23%
   &-2
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: float2 3.2s ease-in-out infinite alternate
     position: absolute
     top: 35%
-    right: 55%
-    width: 20%
+    right: 47%
+    width: 23%
+  &-3
+    animation: float2 2.5s ease-in-out infinite alternate
+    position: absolute
+    top: 10%
+    right: 5%
+    width: 95%
 
 // @media (min-width: 1401px)
 //   .banner-principal-decorativo
@@ -50,6 +56,10 @@
 
 .fondo4
   background-color: #DADDDF !important
+.fondo4A
+  background-color: #E1EFE3 !important
+.fondo4B
+  background-color: #DBE5F3 !important
 
 .fondo5
   background-image: url('../assets/curso/tema1/figura2.svg')
@@ -295,18 +305,18 @@
   height: 260px
 
 .slyder-a__bullets__item--active
-  background-color: #03386E !important
-  border-color: #03386E
+  background-color: $color-acento-botones !important
+  border-color: $color-acento-botones
   opacity: 1
 
 .slyder-a__bullets__item
   width: 15px
   height: 15px
-  background-color: rgba(3, 56, 110, 0.35)
+  background-color: $color-secundario
   border-radius: 50%
   margin: 0 10px
   cursor: pointer
-  opacity: 0.7
+  opacity: 1
   transition: opacity 0.3s ease-in-out, box-shadow 0.3s ease-in-out
   border: none
 
@@ -346,8 +356,10 @@
   background-color: #E1EFE3 !important
 
 .otroacordion
+  .tarjeta--gris
+    background-color: #DADDDF !important
   .acordion__activo
-    background-color: #F6F6F6 !important
+    background-color: #E1EFE3 !important
 
 .margenizq
   margin-left: 10px
@@ -606,10 +618,10 @@
     transform: translateY(calc( 100% - 4.5rem ))
     background-color: rgba(255, 247, 230, 1) 
   
-  @media (min-width:1200px) and (max-width:1400px)  
-    .crd_hover_txt--body
-      p
-        font-size: 0.85em
+  // @media (min-width:1200px) and (max-width:1400px)  
+  //   .crd_hover_txt--body
+  //     p
+  //       font-size: 0.85em
 
 
 .ico-open-task
@@ -620,3 +632,11 @@
   top: -3px !important
   margin-right: 7px !important
   padding: 13px
+
+.titulo-herramientas 
+  background-image: url("../assets/curso/ico-title.svg")
+  background-size: inherit
+  background-repeat: no-repeat 
+  padding-left: 2em
+  color: $color-primario
+  border-bottom: 0.15em solid $color-secundario

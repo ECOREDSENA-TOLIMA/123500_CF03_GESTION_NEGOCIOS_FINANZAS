@@ -36,7 +36,7 @@
           .col-xxl-4.col-xl-5.col-lg-6.col-11.mb-4.mb-md-0
             h4.mt-4.ms-4.mb-4 Ejecución
             p.ms-4 En la ejecución, se busca dar el primer paso en la realización de las actividades asignadas a cada grupo de trabajo y que continúen realizando estas actividades de manera periódica y eficaz; cada grupo de trabajo se rige por normas y medidas que mejoran su funcionamiento. 
-            p.ms-4 Dentro de las actividades de la ejecución se encuentra: Ofrecer un carácter motivador al personal y recompensar a cada empleado con el salario correspondiente.
+            p.ms-4 Dentro de las actividades de la ejecución se encuentra: ofrecer un carácter motivador al personal y recompensar a cada empleado con el salario correspondiente.
           .col-xxl-7.col-xl-6.col-lg-5.col-11
             figure
               img.mt-4(src='@/assets/curso/tema1/slider3.png')
@@ -55,12 +55,14 @@
           h5 Figura 1. 
           i Proceso administrativo
         figure.d-lg-flex.d-none
-          img(src='@/assets/curso/tema1/figura1.svg')
+          img(src='@/assets/curso/tema1/figura1.svg' alt="Figura que mencionan las características que tiene una empresa, con miras en satisfacer las necesidades de los clientes.")
         figure.d-lg-none.d-flex
-          img(src='@/assets/curso/tema1/figura1r.svg')
-    .row.my-5(data-aos="fade-left")
-      .col-auto
-        h4.ps-5.pb-2.mb-0.fondo6 La importancia del proceso administrativo:
+          img(src='@/assets/curso/tema1/figura1r.svg' alt="Figura que mencionan las características que tiene una empresa, con miras en satisfacer las necesidades de los clientes.")
+    //- .row.my-5(data-aos="fade-left")
+    //-   .col-auto
+    //-     h4.ps-5.pb-2.mb-0.fondo6 La importancia del proceso administrativo:
+    .h4.mb-4.mt-5(data-aos="zoom-down-right")
+      span.titulo-herramientas La importancia del proceso administrativo:
     p(data-aos="fade-right") Para que el mundo empresarial conserve su eficiencia en los procesos, se requiere de una buena gestión administrativa, en la que no solo se conformen con un adecuado trabajo, sino que las actividades se produzcan a través de fases y técnicas que le den norte al desempeño de los funcionarios y así alcanzar el cumplimiento de los objetivos y metas trazadas por la empresa.
     p.mb-5(data-aos="fade-right") Aunque las definiciones de los procesos administrativos conducen a la misma finalidad de generar excelencia en las unidades administrativas que conforman una organización, lo cierto es que la importancia de utilizar los procesos administrativos radica en:
     .row.justify-content-center(data-aos="fade-up")
@@ -190,9 +192,13 @@
         .tarjeta.otra1.color-primario
           .text-dark.p-4
             p.text-center Jornada laboral.
-    .row.mb-5(data-aos="fade-right")
-      .col-xxl-7.col-xl-8.col-lg-12.col-md-12
-        h4.ps-5.mb-0.pb-xl-2.fondo5 Beneficios que obtiene la organización con la implementación de las políticas:
+    //- .row.mb-5(data-aos="fade-right")
+    //-   .col-xxl-7.col-xl-8.col-lg-12.col-md-12
+    //-     h4.ps-5.mb-0.pb-xl-2.fondo5 Beneficios que obtiene la organización con la implementación de las políticas:
+
+    .h4.mb-4(data-aos="zoom-down-right")
+      span.titulo-herramientas Beneficios que obtiene la organización con la implementación de las políticas:
+
     TabsA.color-acento-contenido.mb-5(data-aos="fade-up-left")
       .tarjeta.otra2.color-acento-botones.p-4(titulo="Reducir los costos")
         h4 Reducir los costos
@@ -207,9 +213,12 @@
         h4 Dan a conocer los procedimientos
         p Algunas políticas exponen a los colaboradores cómo operar en la empresa. Por ejemplo, la empresa puede tener cronogramas específicos para solicitar vacaciones e inscribirse en programas de beneficios. La empresa puede tener procedimientos específicos para otorgar aumentos y despedir empleados.
     p.my-5(data-aos="fade-up-right") Las políticas bien redactadas ofrecen a los colaboradores de nivel subordinado una forma de manejar problemas y conflictos al tener que involucrar constantemente a la gerencia cada vez que necesitan tomar una decisión; de esta manera, los empleados entienden las limitaciones de sus puestos de trabajo. Las políticas definen los límites de la toma de decisiones y trazan las alternativas.
-    .row.mb-5(data-aos="fade-right")
-      .col-auto
-        h4.ps-5.pb-2.mb-0.fondo6 Clases de políticas existentes en la organización:
+    //- .row.mb-5(data-aos="fade-right")
+    //-   .col-auto
+    //-     h4.ps-5.pb-2.mb-0.fondo6 Clases de políticas existentes en la organización:
+        
+    .h4.mb-4(data-aos="zoom-down-right")
+      span.titulo-herramientas Clases de políticas existentes en la organización:
     p.my-5(data-aos="fade-left") Cada empresa asume la formulación de políticas partiendo de la cultura organizacional que quiere reflejar al exterior y de los lineamientos que desea trazar dentro de ella para mantener todo bajo control. Todas las políticas son importantes, pero algunas son más importantes que otras, algunas hacen que las empresas cumplan con las normas laborales y orientan los aspectos principales de la empresa.
     
     .row.justify-content-center(data-aos="fade-right")
@@ -264,7 +273,7 @@
         .row.px-4(titulo="")
           .col-md-6.mb-4.mb-md-0
             p.text-bold 5. Políticas de seguridad de información
-            p Dado que la mayoría de empresas trabajan ahora bajo la compañía de un <i>software</i> y este se usa en casi todos los trabajos, las empresas necesitan políticas que rijan el uso de la información de los equipos que disponen de este <i>software</i> para actividades personales. Por motivos de seguridad, las empresas pueden pedir a los empleados que firmen un documento que permita a una empresa controlar la actividad de Internet y los correos electrónicos de sus trabajadores.
+            p Dado que la mayoría de empresas trabajan ahora bajo la compañía de un <i>software</i> y este se usa en casi todos los trabajos, las empresas necesitan políticas que rijan el uso de la información de los equipos que disponen de este <i>software</i> para actividades personales. Por motivos de seguridad, las empresas pueden pedir a los empleados que firmen un documento que permita a una empresa controlar la actividad de internet y los correos electrónicos de sus trabajadores.
         
           .col-md-6
             figure
@@ -292,7 +301,7 @@
               figure
                 img(src='@/assets/curso/tema1/imagen5.png')
             .col-md-7.mb-4.mb-md-0
-              p Cada empresa debe adecuar las mejores prácticas de los empleados a su situación concreta; examine los problemas y las preguntas que surgen en el lugar de trabajo y apúntelos para tenerlos en cuenta a la hora de diseñar la política. Tenga en cuenta la asistencia, vestuario, tiempo libre pagado, revisiones anuales, procesos de quejas, descansos, política de fumar, uso personal de los activos de la empresa, uso de Internet y correo electrónico, cadena de mando, estacionamiento, otorgamiento de beneficios y conflicto de intereses.    
+              p Cada empresa debe adecuar las mejores prácticas de los empleados a su situación concreta; examine los problemas y las preguntas que surgen en el lugar de trabajo y apúntelos para tenerlos en cuenta a la hora de diseñar la política. Tenga en cuenta la asistencia, vestuario, tiempo libre pagado, revisiones anuales, procesos de quejas, descansos, política de fumar, uso personal de los activos de la empresa, uso de internet y correo electrónico, cadena de mando, estacionamiento, otorgamiento de beneficios y conflicto de intereses.    
           .row.justify-content-center(titulo="Socialice las políticas a los miembros de la organización")
             .col-md-4
               figure
@@ -308,9 +317,12 @@
         .row.justify-content-center
           .col-xxl-4.col-xl-4.col-lg-5.col-md-10.col-sm-11.col-11.mb-5
             img(src='@/assets/curso/tema1/figura3.svg')
-    .row.mb-5(data-aos="fade-right")
-      .col-auto
-        h4.ps-5.pb-2.mb-0.fondo6 Proceso de gestión del talento
+    //- .row.mb-5(data-aos="fade-right")
+    //-   .col-auto
+    //-     h4.ps-5.pb-2.mb-0.fondo6 Proceso de gestión del talento
+        
+    .h4.mb-4(data-aos="zoom-down-right")
+      span.titulo-herramientas Proceso de gestión del talento
     p.mb-5(data-aos="fade-up-right") Para todas las empresas, es fundamental que se gestione el talento humano desde cada una de las áreas, evaluando el desempeño y analizando las situaciones que ameritan riesgo o alerta en el contexto laboral.  Los colaboradores se sienten parte de la organización cuando esta resalta las destrezas y habilidades, optimiza los procesos y tiene en cuenta la experiencia del trabajador para futuros puestos vacantes. Por lo anterior, se relacionan a continuación los pasos para desarrollar el proceso de gestión de talento:
     SlyderF(data-aos="fade-up").my-5(columnas="col-xl-4 col-lg-6")
       .tarjeta-avatar
@@ -349,9 +361,12 @@
           .text-dark.p-4
             span.text-bold Conserve a su mejor talento: 
             span la mayoría de las empresas cuentan con los medios para retener a los colaboradores potenciales, haciendo que estos trabajen motivados en la labor encomendada, ofreciéndoles beneficios y compensaciones por las metas alcanzadas, motivando y resaltando los logros y actividades en las que se desempeñó eficientemente, asegurando la satisfacción laboral y mejorando la cultura de la empresa. 
-    .row.mb-5(data-aos="fade-right")
-      .col-auto
-        h4.ps-5.pb-2.mb-0.fondo6 Actividades de la gestión del talento humano
+    
+    .h4.mb-4(data-aos="zoom-down-right")
+      span.titulo-herramientas Actividades de la gestión del talento humano
+    //- .row.mb-5(data-aos="fade-right")
+    //-   .col-auto
+    //-     h4.ps-5.pb-2.mb-0.fondo6 Actividades de la gestión del talento humano
     p.mb-5(data-aos="fade-left") Dentro de la gestión del talento humano, se encuentran acciones que van desde la incorporación de colaboradores, pasando por la gestión del desempeño, hasta la retención. Aquí, se presentan las actividades más relevantes de esta gestión:
     
     
@@ -360,8 +375,8 @@
         .titulo-sexto.color-acento-contenido
           p.titulo.pb-0.mb-0 <b>Figura 2. </b> <i>Actividades de la gestión del talento</i>
         figure
-          img.d-none.d-sm-none.d-md-block(src='@/assets/curso/tema1/fig-1a.svg', alt='')  
-          img.d-block.d-md-none(src='@/assets/curso/tema1/fig-1b.svg', alt='') 
+          img.d-none.d-sm-none.d-md-block(src='@/assets/curso/tema1/fig-1a.svg', alt='Imagen que menciona las cuatro actividades que tienen mayor relevancia dentro de la gestión del talento humano: atraer, desarrollar, motivar, retener.')  
+          img.d-block.d-md-none(src='@/assets/curso/tema1/fig-1b.svg', alt='Imagen que menciona las cuatro actividades que tienen mayor relevancia dentro de la gestión del talento humano: atraer, desarrollar, motivar, retener.') 
 
     //- .row.justify-content-center(data-aos="fade-left")
     //-   .col-xxl-8.col-xxl-8.col-lg-9.col-md-11.col-sm-12.col-12
@@ -377,9 +392,11 @@
     //-         img(src='@/assets/curso/tema1/actividad3.svg')
     //-       .col-xxl-3.col-xl-3.col-lg-3.col-md-3.col-sm-3.col-3
     //-         img(src='@/assets/curso/tema1/actividad4.svg')
-    .row.my-5(data-aos="fade-left")
-      .col-auto
-        h4.ps-5.pb-2.mb-0.fondo6 Modelo integrado de gestión de talento humano            
+    //- .row.my-5(data-aos="fade-left")
+    //-   .col-auto
+    //-     h4.ps-5.pb-2.mb-0.fondo6 Modelo integrado de gestión de talento humano    
+    .h4.mb-4(data-aos="zoom-down-right")
+      span.titulo-herramientas Modelo integrado de gestión de talento humano  
     p(data-aos="fade-right") Se tiene en cuenta que la gestión del talento necesita transformarse para adaptarse a las últimas tendencias de talento, las disrupciones digitales y las expectativas de los empleados; teniendo en cuenta este ambiente, se diseñan los modelos para gestionar mejor los colaboradores. Por lo tanto, debe poder adaptarse a las necesidades cambiantes de la organización, las expectativas de talento en evolución y el ritmo establecido por los cambios dentro del negocio. 
     p.mb-5(data-aos="fade-right") Esta estructura de componentes es cíclica, teniendo en cuenta el clima interno dentro de la organización y el entorno externo en el que opera. Se describen seguidamente los componentes principales del modelo:
     .row.justify-content-center(data-aos="fade-right")
@@ -400,19 +417,27 @@
 
       .col-xxl-5.col-lg-6.col-md-11
         img(src='@/assets/curso/tema1/imagen7.png')
-    .row.my-5(data-aos="fade-left")
-      .col-auto
-        h4.ps-5.pb-2.mb-0.fondo6 Beneficios de aplicar gestión de talento humano en las empresas
+    //- .row.my-5(data-aos="fade-left")
+    //-   .col-auto
+    //-     h4.ps-5.pb-2.mb-0.fondo6 Beneficios de aplicar gestión de talento humano en las empresas
+    .h4.mb-4.mt-4(data-aos="zoom-down-right")
+      span.titulo-herramientas Beneficios de aplicar gestión de talento humano en las empresas
     p.mb-5(data-aos="fade-right") La empresa no puede asumir que ya tiene cubierta la gestión del talento solo porque tiene recursos humanos en su empresa; por ende, debe gestionarlo, lo cual implica identificar brechas de talento, vacantes, buscar e incorporar a los candidatos adecuados, crecimiento del colaborador a través del desarrollo de habilidades y las capacitaciones necesarias para involucrarlos, retenerlos y motivarlos adecuadamente como piezas fundamentales de la empresa. Es así como el logro de estos procesos de gestión de talento suministra a la organización los siguientes beneficios:
-    .row.justify-content-center(data-aos="fade-up-left")
+    .row.justify-content-center.mb-4(data-aos="fade-up-left")
+      .titulo-sexto.color-acento-contenido
+        p.titulo.pb-0.mb-0 <b>Figura 3. </b> <i>Pasos gestión del talento humano</i>
       figure.d-lg-flex.d-none
-        img(src='@/assets/curso/tema1/beneficios1.svg')
+        img(src='@/assets/curso/tema1/beneficios1.svg' alt="Imagen que menciona los siguientes cinco pasos que se dan al momento de llevar a cabo un adecuado proceso de gestión del talento humano: 1 Permite a las empresas mantenerse competitivas. 2. La organización se fortalece y está mejor preparada para asumir las amenazas y vulnerabilidades. 3. Induce a la innovación. 4. Apoya la formación de equipos productivos. 5. Reduce la rotación y salida de colaboradores de la organización.")
       .col-md-8.col-sm-10.d-lg-none.d-flex
-        img(src='@/assets/curso/tema1/beneficios2.svg')
-    .row.my-5(data-aos="fade-right")
-      .col-auto
-        h4.ps-5.pb-2.mb-0.fondo6 Estrategias de gestión de talento humano
+        img(src='@/assets/curso/tema1/beneficios2.svg' alt="Imagen que menciona los siguientes cinco pasos que se dan al momento de llevar a cabo un adecuado proceso de gestión del talento humano: 1 Permite a las empresas mantenerse competitivas. 2. La organización se fortalece y está mejor preparada para asumir las amenazas y vulnerabilidades. 3. Induce a la innovación. 4. Apoya la formación de equipos productivos. 5. Reduce la rotación y salida de colaboradores de la organización.")
+    //- .row.my-5(data-aos="fade-right")
+    //-   .col-auto
+    //-     h4.ps-5.pb-2.mb-0.fondo6 Estrategias de gestión de talento humano
+    .h4.mb-4.mt-4(data-aos="zoom-down-right")
+      span.titulo-herramientas Estrategias de gestión de talento humano
     p.mb-5(data-aos="fade-up-left") La gestión estratégica del talento es una necesidad en el entorno actual. La gestión del talento y el capital humano ha llevado a un renacimiento de los elementos: lugar de trabajo-trabajo-trabajador. Hay una serie de elementos y subprocesos que deben trabajar acordes para garantizar el éxito de la organización. Aquí se presentan algunas estrategias para que escoja la más conveniente:
+    .titulo-sexto.color-acento-contenido
+      p.titulo.pb-0.mb-0 <b>Tabla 1. </b> <i>Estrategias de gestión del talento humano.</i>
     .tabla-c(data-aos="fade-right")
       table
         tr
@@ -462,9 +487,11 @@
               li 
                 i.lista-ul__vineta
                 | Ayudará al talento humano a crecer más rápido y mantenerlos motivados.
-    .row.my-5(data-aos="fade-right")
-      .col-auto
-        h4.ps-5.pb-2.mb-0.fondo6 Elementos esenciales de la gestión de talento humano
+    //- .row.my-5(data-aos="fade-right")
+    //-   .col-auto
+    //-     h4.ps-5.pb-2.mb-0.fondo6 Elementos esenciales de la gestión de talento humano
+    .h4.mb-4.mt-5(data-aos="zoom-down-right")
+      span.titulo-herramientas Elementos esenciales de la gestión de talento humano
     .row.justify-content-center.my-5(data-aos="fade-left")
       .col-lg-6.col-md-11.col-sm-11.col-12.mt-3
         LineaTiempoD
@@ -502,7 +529,7 @@
     #comercial.titulo-segundo.color-acento-contenido(data-aos="fade")
       h2 1.3. Gestión comercial
     p.mb-5(data-aos="fade-right") La gestión comercial es la disciplina que informa e implementa la estrategia y las políticas comerciales, se implementa asegurando procedimientos operativos efectivos y eficientes, que establecen y mantienen esas capacidades. La gerencia comercial o los representantes comerciales se ocupan de las ventas, adquisiciones, <i>marketing</i>, contratación, gastos e ingresos, con un enfoque en las pérdidas y ganancias. Ahora bien, el papel de la gestión comercial varía según el tipo/modelo de negocio de una organización, y también el tipo de clientes o socios.
-    .bloque-texto-g.fondo1.p-3.p-sm-4.p-md-5(data-aos="fade-left")
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5(data-aos="fade-left")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema1/imagen13.jpg')})`}"
       )
@@ -511,6 +538,8 @@
     p.my-5(data-aos="fade-right") Al salir al mercado, cualquier producto o servicio debe estar respaldado por compromisos de desempeño que sean relevantes para sus clientes y consumidores. Esos compromisos pueden ser específicos del producto/servicio o genéricos de la organización:
     .row.justify-content-center(data-aos="fade-left")
       .col-lg-6.col-md-8.col-sm-11.col-12
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 <b>Tabla 2. </b> <i>Compromisos de los productos.</i>
         table
           tr.align-items-centee.colorborde
             td.colorborde
@@ -562,7 +591,9 @@
     p.mb-5(data-aos="fade-left") En algunas empresas, la función de gestión comercial se limita a las actividades relacionadas con:
     .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-xxl-10.col-xl-10.col-lg-11.col-md-12.col-sm-12.col-12
-        img(src='@/assets/curso/tema1/figura4.svg')
+        .titulo-sexto.color-acento-contenido
+          p.titulo <b>Figura 4. </b> <i>Función de la gestión comercial</i>
+        img(src='@/assets/curso/tema1/figura4.svg' alt="Esquema que menciona los tres aspectos que hacen presencia en la función de la gestión comercial: ventas, marketing y finanzas.")
 
     p(data-aos="fade-right") Algunas de las organizaciones públicas y privadas no tienen un departamento de gestión comercial, solo cuentan con un área de contratación. En tales casos, las actividades previas al contrato están a cargo principalmente del equipo jurídico y técnico, que cuenta con el respaldo de finanzas para la revisión de la oferta.
     p.mb-5(data-aos="fade-left") La gestión comercial ayuda a la empresa con las siguientes tareas esenciales:
@@ -602,9 +633,11 @@
             h4.m-2 De acuerdo con el pensamiento de Taylor y Feenstra (2015, p. 43), las barreras comerciales son el conjunto de elementos que influyen sobre los bienes y servicios que se intercambian entre países. Por lo anterior, es apreciable que las barreras comerciales sean perjudiciales para la economía mundial y disminuyan la eficiencia económica general, dejando un bloqueo o acuerdo político que limita la capacidad de exportación o importación de un país extranjero.
             i.fas.fa-quote-right
     
-    .row.mb-5(data-aos="fade-right")
-      .col-auto
-        h4.ps-5.pb-2.mb-0.fondo6 Comercio internacional
+    //- .row.mb-5(data-aos="fade-right")
+    //-   .col-auto
+    //-     h4.ps-5.pb-2.mb-0.fondo6 Comercio internacional
+    .h4.mb-4(data-aos="zoom-down-right")
+      span.titulo-herramientas Comercio internacional
     p.mt-5(data-aos="fade-left") El comercio global brinda a los consumidores y países la oportunidad de estar expuestos a bienes y servicios que no están disponibles en sus propios países, o que son más costosos a nivel nacional, ofreciendo la oportunidad de adquirir estos productos y servicios en el exterior. Es así como, a través de la necesidad de un país, el comercio internacional genera el intercambio de productos en otros territorios, produciendo la economía internacional.
     p.mb-5(data-aos="fade-right") En otras palabras, el comercio internacional es la relación existente de compra y venta entre países. Ahora bien, dentro de lo que es el comercio internacional, se describen dos palabras claves para que exista la economía internacional:
 
@@ -652,7 +685,9 @@
     p.mb-5(data-aos="fade-left") La operación para establecer la balanza comercial es la divergencia entre el valor de las exportaciones y el valor de las importaciones, así:
     .row.justify-content-center(data-aos="fade-right")
       .col-xxl-6.col-xxl-6.col-lg-7.col-md-11.col-sm-11.col-12
-        img(src='@/assets/curso/tema1/balanza.svg')
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 <b>Figura 5. </b> <i>Balanza comercial.</i>
+        img(src='@/assets/curso/tema1/balanza.svg' alt="Figura que relaciona la siguiente fórmula comercial entre las exportaciones e importaciones: balanza comercial = valor de las exportaciones - valor de las importaciones")
       .col-xxl-8.col-xxl-8.col-lg-8.col-md-11.col-sm-11.col-12
         h4.text-center Balanza comercial = valor de las exportaciones - valor de las importaciones
     .row.justify-content-center(data-aos="fade-right")
@@ -665,9 +700,11 @@
         //- .bloque-texto-c.fondo9.p-4.my-5
         //-   i.fas.fa-quote-right
         //-   h4.m-2 Taylor y Feenstra (2015, p. 35) definen la balanza comercial de acuerdo con el cálculo diferencial entre el valor total de las exportaciones de un país y el valor total de las importaciones, y está influida por las condiciones macroeconómicas del país. Todos los países están llamados a comercializar entre ellos para subsanar la falta de productos o servicios.
-    .row.mb-5(data-aos="fade-left")
-      .col-auto
-        h4.ps-5.pb-2.mb-0.fondo6 Política comercial
+    //- .row.mb-5(data-aos="fade-left")
+    //-   .col-auto
+    //-     h4.ps-5.pb-2.mb-0.fondo6 Política comercial
+    .h4.mb-4(data-aos="zoom-down-right")
+      span.titulo-herramientas Política comercial
     p.mb-5(data-aos="fade-right") La política comercial promueve el crecimiento económico a través de regulaciones y acuerdos que controlan las importaciones y exportaciones con otros países, desde acuerdos de libre comercio hasta tratados, impactando así la economía y las finanzas.
     figure.mb-5(data-aos="fade-left")
       .video
@@ -701,29 +738,31 @@
             | Protección y promoción a través de tratados y acuerdos de inversión.
       .col-xxl-6.col-xxl-6.col-lg-6.col-md-11.col-sm-12.col-12
         img(src='@/assets/curso/tema1/imagen16.png')
-    .row.mb-5.mt-5(data-aos="fade-left")
-      .col-auto
-        h4.ps-5.pb-2.mb-0.fondo6 Los acuerdos comerciales
+    //- .row.mb-5.mt-5(data-aos="fade-left")
+    //-   .col-auto
+    //-     h4.ps-5.pb-2.mb-0.fondo6 Los acuerdos comerciales
+    .h4.mb-4.mt-5(data-aos="zoom-down-right")
+      span.titulo-herramientas Los acuerdos comerciales
     p.mb-5(data-aos="fade-left") Los acuerdos comerciales pueden crear oportunidades para ayudar a hacer crecer la economía. Establecen reglas para las empresas que participan de estos acuerdos y que buscan hacer negocios en los mercados de todo el mundo, mediante la reducción de las barreras a las exportaciones, la protección de los intereses y la mejora del estado de derecho en los países socios del acuerdo comercial. Hay muchos tipos de acuerdos comerciales, incluyendo: 
     .tarjeta.fondo2.p-4.mb-5(data-aos="fade-right")
       SlyderA(tipo="b")
         .row.justify-content-around
           .col-xxl-7.col-xl-7.col-lg-7.col-11.mb-4.mb-md-0
-            h4.mt-4.ms-4.mb-4 1. Acuerdos de la Organización Mundial del Comercio (OMC)
+            h4.mt-4.ms-4.mb-4 1. Acuerdos de la Organización Mundial del Comercio - OMC
             p.ms-4 Establecen normas que rigen el comercio entre los muchos miembros de la OMC. Según lo expresado por Taylor y Feenstra (2015, p. 425), la OMC es un acuerdo multilateral entre muchos países, con el objetivo de recortar los aranceles entre todos los países miembros. Estos acuerdos cubren bienes, servicios, propiedad intelectual, estándares, inversión y otros temas que impactan el flujo de comercio, además de crear un marco legal de comercio internacional para muchísimas economías de todo el mundo.
           .col-xxl-5.col-xl-5.col-lg-5.col-11
             figure
               img.mt-0.mt-lg-4(src='@/assets/curso/tema1/slider2-1.png')
         .row.justify-content-around
           .col-xxl-7.col-xl-7.col-lg-7.col-11.mb-4.mb-md-0
-            h4.mt-4.ms-4.mb-4 2. Tratados de Libre Comercio (TLC)
+            h4.mt-4.ms-4.mb-4 2. Tratados de Libre Comercio - TLC
             p.ms-4 Se construyen sobre la base del Acuerdo de la OMC, brindando aún más protecciones y derechos a las empresas; se suscribe entre varios países cercanos. Si está buscando exportar un producto o servicio, es posible que deba negociar un trato favorable a través de un TLC, para hacerlo más fácil y económico para usted. Acceder a los beneficios del TLC para el producto también puede darles una ventaja competitiva frente a los productos de otros países.
           .col-xxl-5.col-xl-5.col-lg-5.col-11
             figure
               img.mt-0.mt-lg-4(src='@/assets/curso/tema1/slider2-2.png')
         .row.justify-content-around
           .col-xxl-7.col-xl-7.col-lg-7.col-11.mb-4.mb-md-0
-            h4.mt-4.ms-4.mb-4 3. Tratados Bilaterales de Inversión (TBI)
+            h4.mt-4.ms-4.mb-4 3. Tratados Bilaterales de Inversión - TBI
             p.ms-4 Ayudan a proteger la inversión privada, desarrollar políticas orientadas al mercado en los países socios y promover las exportaciones de los países.
           .col-xxl-5.col-xl-5.col-lg-5.col-11
             figure

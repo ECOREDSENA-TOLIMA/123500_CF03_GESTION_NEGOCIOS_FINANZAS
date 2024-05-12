@@ -45,7 +45,8 @@
       .col-12
         .titulo-quinto.color-primario
           h4.color-texto Para elaborar un plan táctico, tenga en cuenta los siguientes elementos:
-
+    .titulo-sexto.color-acento-contenido
+      p.titulo.pb-0.mb-0 <b>Tabla 3. </b> <i>Elementos del plan táctico.</i>
     .tabla-c.my-5(data-aos="fade-right")
       table
         tr
@@ -99,9 +100,9 @@
       .col-xxl-1.col-xl-1.col-lg-1.col-md-12.col-sm-12.col-12
       .col-xl-3.col-lg-4.col-md-6.col-sm-7.col-8
         .titulo-sexto.color-acento-contenido
-          h5 Figura 3. 
+          h5 Figura 6. 
           i Objetivos a mediano plazo
-        img(src='@/assets/curso/tema2/figura1.svg')
+        img(src='@/assets/curso/tema2/figura1.svg' alt="Esquema que menciona los aspectos a tener en cuenta  al momento de convertir los planes estratégicos en objetivos específicos; estos son: tácticas, objetivos tácticos, funciones, planes tácticos, procesos organizacionales y políticas.")
     p.my-5.text-center(data-aos="fade-left") Quien lleve a cabo la formulación de un plan táctico tendrá en cuenta los siguientes elementos de la organización:
 
 
@@ -129,9 +130,11 @@
         p.mt-3.text-center Cronograma 
 
     p.my-4(data-aos="fade-right") Por lo general, se crea un plan táctico cuando la organización quiere abordar una meta a corto plazo que desea alcanzar en un año o menos. Sin embargo, también debería ayudar a la empresa a lograr sus objetivos a mediano o largo plazo.  
-    .row.mb-5(data-aos="fade-left")
-      .col-auto
-        h4.ps-5.pb-2.mb-0.fondo6 Beneficios de un plan táctico
+    //- .row.mb-5(data-aos="fade-left")
+    //-   .col-auto
+    //-     h4.ps-5.pb-2.mb-0.fondo6 Beneficios de un plan táctico
+    .h4.mb-4.mt-5(data-aos="zoom-down-right")
+      span.titulo-herramientas Beneficios de un plan táctico
     .row.justify-content-center(data-aos="fade-right")
       .col-xxl-6.col-xl-6.col-lg-6.col-md-11.col-sm-11.col-12
         p Los planes tácticos respaldan la ejecución de la planeación estratégica en todos los niveles de una empresa. Los siguientes son algunos de los beneficios claves de un plan táctico:
@@ -143,13 +146,16 @@
       .row.justify-content-center.my-5
         .col-xxl-10.col-xl-10.col-lg-10.col-md-12.col-sm-12.col-12.p-5.fondo14
           p.text-bold Ejemplo:
-          p Los directivos de X organización formularon un plan estratégico en el que desean que el área comercial aumente las ventas en el último mes de este segundo trimestre del año en un 30%.
+          p Los directivos de X organización formularon un plan estratégico en el que desean que el área comercial aumente las ventas en el último mes de este segundo trimestre del año en un 30 %.
           p.text-bold Plan táctico:
           p El líder de área evaluará el desempeño de los colaboradores diariamente para reforzar los métodos de ventas en efectivo. Uno de los trabajadores monitoreará el progreso de las metas e informará los resultados semanalmente al líder del área. Otro de los trabajadores capacitará sobre nuevas técnicas de ventas al equipo durante el tiempo muerto.
           img.situarimagen(src='@/assets/curso/tema2/imagen2.svg')
-    .row.my-5(data-aos="fade-left")
-      .col-auto
-        h4.ps-5.pb-2.mb-0.fondo6 Puntos claves de un plan táctico
+    //- .row.my-5(data-aos="fade-left")
+    //-   .col-auto
+    //-     h4.ps-5.pb-2.mb-0.fondo6 Puntos claves de un plan táctico
+    .h4.mb-4.mt-5(data-aos="zoom-down-right")
+      span.titulo-herramientas Puntos claves de un plan táctico
+
     p.mb-5(data-aos="fade-right") Los planes tácticos están hechos para desempeñar lo descrito en el plan estratégico, a través de acciones y estrategias específicas, con instrucciones claras y definición de los pasos necesarios para asegurar que todos los involucrados hablen el mismo idioma en cuanto a las operaciones que deben encauzar para desarrollar la visión estratégica, así:
     
     //- .row.justify-content-center.mt-5(data-aos="fade-left")
@@ -202,7 +208,7 @@
               li.mb-4
                 i.ico-open-task
                 h4 Objetivos Específicos
-            p.mb-0 Con este tipo de reportes, los gerentes podrán supervisar específicamente, la labor de cada vendedor y de esta manera, saber en qué les va bien y en cuáles actos hay que mejorar. Aquí también, va a encontrar si su fuerza de ventas está entendiendo sus estrategias y le sea más fácil incentivarlos a aumentar su productividad.
+            p.mb-0 Los objetivos incluidos en un plan táctico deben ser objetivos a mediano plazo, que se puedan lograr en un año o más.
 
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0.mt-2
         .crd_hover_txt(data-aos="flip-left")
@@ -214,7 +220,7 @@
               li.mb-4
                 i.ico-open-task
                 h4 Pasos a seguir para alcanzar esos objetivos
-            p.mb-0 Con estos reportes semanales, podrá encontrar las dificultades que pueda tener algún o algunos vendedores y evitar que se pierdan los clientes fijos. Reportar semanalmente, le permite tener un equipo de ventas fortalecido y bien direccionado, con las correcciones necesarias para lograr las metas de ventas propuestas.
+            p.mb-0 Una táctica es una estrategia que se utiliza para lograr cada objetivo que se crea en un plan táctico. Por lo general, las tácticas no tienen plazos, sino que simplemente están ahí para respaldar su capacidad de alcanzar cada objetivo.
 
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0.mt-2
         .crd_hover_txt(data-aos="flip-left")
@@ -225,8 +231,8 @@
             ul.lista-ul--color
               li.mb-4
                 i.ico-open-task
-                h4 Acciones que se llevarán a cabo para alcanzar cada objetivo
-            p.mb-0 Con este tipo de reportes usted va a hacer un seguimiento específico a su equipo de ventas respecto a sus objetivos empresariales a largo plazo.
+                h4 Otro elemento clave de un plan táctico son las acciones que se llevarán a cabo para alcanzar cada objetivo
+            p.mb-0 Las acciones son pasos específicos o tareas que deben completarse para acercarse a la finalización de una meta. 
 
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0.mt-2
         .crd_hover_txt(data-aos="flip-left")
@@ -238,7 +244,7 @@
               li.mb-4
                 i.ico-open-task
                 h4 Recursos necesarios
-            p.mb-0 Con estos reportes semanales, podrá encontrar las dificultades que pueda tener algún o algunos vendedores y evitar que se pierdan los clientes fijos. Reportar semanalmente, le permite tener un equipo de ventas fortalecido y bien direccionado, con las correcciones necesarias para lograr las metas de ventas propuestas.
+            p.mb-0 Para ejecutar las acciones que permitan alcanzar los objetivos trazados.
 
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0.mt-2
         .crd_hover_txt(data-aos="flip-left")
@@ -250,13 +256,11 @@
               li.mb-4
                 i.ico-open-task
                 h4 Cronograma
-            p.mb-0 Con este tipo de reportes usted va a hacer un seguimiento específico a su equipo de ventas respecto a sus objetivos empresariales a largo plazo.
-
-
-
+            p.mb-0 Cada tarea o acción que forma parte de un plan táctico debe tener una fecha límite.
 
     p.mb-5(data-aos="fade-right") Diferencias entre la planeación estratégica y la planeación táctica:
-
+    .titulo-sexto.color-acento-contenido
+      p.titulo.pb-0.mb-0 <b>Tabla 4. </b> <i>Planeación estratégica vs planeación táctica.</i>
     .tabla-c(data-aos="fade-left")
       table.table-bordered
         tr
@@ -288,13 +292,15 @@
     .row.justify-content-center.my-5(data-aos="fade")
       .col-xxl-10.col-xl-10.col-lg-10.col-md-12
         .titulo-sexto.color-acento-contenido.mb-5
-          h5 Figura 4. 
+          h5 Figura 7. 
           i Propósitos de las tácticas
         figure.d-lg-flex.d-none
-          img(src='@/assets/curso/tema2/figura2.svg')
+          img(src='@/assets/curso/tema2/figura2.svg' alt="Esquema que menciona los aspectos relacionados con las tácticas dentro de los objetivos a mediano plazo, los cuales son las estrategias y la evaluación de resultados.")
         figure.d-lg-none.d-flex
-          img(src='@/assets/curso/tema2/figura2r.svg')            
+          img(src='@/assets/curso/tema2/figura2r.svg' alt="Esquema que menciona los aspectos relacionados con las tácticas dentro de los objetivos a mediano plazo, los cuales son las estrategias y la evaluación de resultados.")            
     p.my-5(data-aos="fade") Por último, los planes tácticos describen la ejecución de acciones específicas que la organización planea usar para lograr lo dispuesto en el plan estratégico, involucran el uso de recursos, el cumplimiento de la línea de tiempo y los criterios en cuanto al paso a paso, cumplimiento de políticas, lineamientos y normativa, fechas de entrega, cantidades y demás. Todo esto conlleva el desarrollo de los objetivos, los cuales estarán plasmados en un lenguaje claro, que defina los resultados que se desean alcanzar. Este documento forja el diseño de estrategias y alcances del plan táctico, que contiene lo ineludible para conseguir los objetivos de la organización.
+    .titulo-sexto.color-acento-contenido
+      p.titulo.pb-0.mb-0 <b>Tabla 5. </b> <i>Planes tácticos.</i>
     .tabla-c(data-aos="fade")
       table
         tr

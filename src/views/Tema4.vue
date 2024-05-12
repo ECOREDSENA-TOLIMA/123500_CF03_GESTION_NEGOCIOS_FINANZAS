@@ -31,13 +31,15 @@
             li 
               i.fas.fa-folder-open
               | Costos de implementación del plan.   
-    .row.my-5(data-aos="fade-right")
-      .col-xxl-2.col-xl-2.col-lg-3.col-md-3.col-sm-4.col-5.ps-md-1
-        h4.ps-5.mb-1.fondo17.pb-1 Evaluación
+    //- .row.my-5(data-aos="fade-right")
+    //-   .col-xxl-2.col-xl-2.col-lg-3.col-md-3.col-sm-4.col-5.ps-md-1
+    //-     h4.ps-5.mb-1.fondo17.pb-1 Evaluación
+    .h4.mb-4.mt-5(data-aos="zoom-down-right")
+      span.titulo-herramientas Evaluación
     p(data-aos="fade-left") La evaluación de los planes y programas se enfoca en el desempeño y se usa principalmente para determinar si los beneficiarios realmente se han beneficiado debido a esas actividades. Por lo general, analiza los resultados y evalúa si se produjo un cambio entre el inicio y la finalización de un período. Idealmente, ese cambio debería poder atribuirse a las actividades realizadas.
     p.mb-5(data-aos="fade-right") Al inicio de un plan y un programa, es importante adquirir datos de referencia, que se utilizarán para comparar el progreso en cada momento de evaluación y al final del período del plan y/o programa. Al pensar en cómo medir los resultados, considere lo siguiente:
     .titulo-quinto.color-primario
-      h4.color-texto Evaluación
+      h5.color-texto Evaluación
         
     .row.justify-content-around(data-aos="fade-left")
       .col-xl-2.col-lg-3.mb-xl-0.mb-4
@@ -131,9 +133,12 @@
           li 
             i.fas.fa-folder-open
             | Distribuir los indicadores a lo largo de los procesos de seguimiento y evaluación.
-    .row.my-5(data-aos="fade-left")
-      .col-xxl-3.col-xl-3.col-lg-4.col-md-5.col-sm-6.col-7.ps-md-1
-        h4.ps-5.mb-1.fondo17.pb-1 ¿Qué es un indicador?
+    //- .row.my-5(data-aos="fade-left")
+    //-   .col-xxl-3.col-xl-3.col-lg-4.col-md-5.col-sm-6.col-7.ps-md-1
+    //-     h4.ps-5.mb-1.fondo17.pb-1 ¿Qué es un indicador?
+    .h4.mb-4.mt-5(data-aos="zoom-down-right")
+      span.titulo-herramientas ¿Qué es un indicador?
+
     p.mb-5(data-aos="fade-right") Un indicador es utilizado para medir algún aspecto de los planes, programas o proyectos en las etapas de planeación de la organización. Esto permite medir verdaderamente hasta qué punto lo que piensan o quieren que suceda realmente sucede. Los indicadores pueden ser tanto cuantitativos como cualitativos; según lo que se necesite medir y de qué manera, se puede ampliar a partir de:
     .row.justify-content-center(data-aos="fade-left")
       .col-12
@@ -142,9 +147,11 @@
       .col-12
         img.nomostrar2.my-2(src='@/assets/curso/tema4/imagen2.svg')
 
-    .row.my-5(data-aos="fade-left")
-      .col-xxl-4.col-xl-4.col-lg-5.col-md-7.col-sm-8.col-10.ps-md-1
-        h4.ps-5.mb-1.fondo17.pb-1 Métodos y diseños de evaluación
+    //- .row.my-5(data-aos="fade-left")
+    //-   .col-xxl-4.col-xl-4.col-lg-5.col-md-7.col-sm-8.col-10.ps-md-1
+    //-     h4.ps-5.mb-1.fondo17.pb-1 Métodos y diseños de evaluación
+    .h4.mb-4.mt-5(data-aos="zoom-down-right")
+      span.titulo-herramientas Métodos y diseños de evaluación
     p.mt-5(data-aos="fade-right") Determinar un método de evaluación requiere, primero, definir los objetivos únicos de la organización o programa específico. En general, esos objetivos se determinan a través del impacto y lo que se desea evaluar.
     p.mb-5(data-aos="fade-left") Ahora bien, se relacionan a continuación varias perspectivas de evaluación que logran los objetivos organizacionales:
     
@@ -156,9 +163,11 @@
           img(src='@/assets/curso/tema4/imagen5.svg')
     
     p.my-5(data-aos="fade-left") Parte de la importancia de una evaluación formativa es que puede mejorar la probabilidad de éxito de la planeación porque alienta a confirmar la viabilidad y detectar posibles áreas problemáticas desde el principio, al mismo tiempo que promueve la rendición de cuentas durante la implementación.
-    .row.my-5(data-aos="fade-right")
-      .col-xxl-4.col-xl-5.col-lg-6.col-md-7.col-sm-10.col-12.ps-md-1
-        h4.ps-5.mb-1.fondo17.pb-1 Informes de seguimiento y evaluación
+    //- .row.my-5(data-aos="fade-right")
+    //-   .col-xxl-4.col-xl-5.col-lg-6.col-md-7.col-sm-10.col-12.ps-md-1
+    //-     h4.ps-5.mb-1.fondo17.pb-1 Informes de seguimiento y evaluación
+    .h4.mb-4.mt-5(data-aos="zoom-down-right")
+      span.titulo-herramientas Informes de seguimiento y evaluación
     p.mb-5(data-aos="fade-up") El monitoreo y la evaluación implementados correctamente pueden generar mejores resultados para las partes interesadas y un mejor retorno de la inversión para descubrir tendencias y tomar decisiones; generalmente, se piensa en recopilar datos en una hoja de cálculo e introducirlos en herramientas de visualización comunes para presentar los informes de este monitoreo y evaluación.
     .row.justify-content-center(data-aos="fade-right")
       .col-xxl-10.col-lg-10.col-xl-10.col-md-12
@@ -171,40 +180,40 @@
     p(data-aos="fade-left") Algunos indicadores de gestión:
     p.mb-5(data-aos="fade-right") Hay que tener en cuenta que de poco sirven si no forman parte de la planificación estratégica de la empresa:
     .tarjeta--container.row.mb-5.justify-content-center(data-aos="fade-right")
-      .col-md.tarjeta.fondo4.p-5.mx-2.mb-4
+      .col-md.tarjeta.fondo4A.p-5.mx-2.mb-4
         .row.justify-content-center.mb-4
           .col-5.col-xxl-9.col-xl-9.col-lg-8.col-md-7.col-sm-5
             figure
               img(src='@/assets/curso/tema4/imagen7.svg')
           
-        h3.text-center Rentabilidad
+        h4.text-center Rentabilidad
         p.text-center Mide la proporción porcentual entre las ventas totales y la utilidad. Relación entre la ganancia y la inversión.
 
-      .col-md.tarjeta.fondo4.p-5.mx-2.mb-4
+      .col-md.tarjeta.fondo4B.p-5.mx-2.mb-4
         .row.justify-content-center.mb-4
           .col-5.col-xxl-9.col-xl-9.col-lg-8.col-md-7.col-sm-5
             figure
               img(src='@/assets/curso/tema4/imagen8.svg')
           
-        h3.text-center Productividad
-        p.text-center Mide los diversos recursos -financieros, laborales, de espacio y tiempo- para generar un producto o servicio.
+        h4.text-center Productividad
+        p.text-center Mide los diversos recursos - financieros, laborales, de espacio y tiempo- para generar un producto o servicio.
 
-      .col-md.tarjeta.fondo4.p-5.mx-2.mb-4
+      .col-md.tarjeta.fondo4A.p-5.mx-2.mb-4
         .row.justify-content-center.mb-4
           .col-5.col-xxl-9.col-xl-9.col-lg-8.col-md-7.col-sm-5
             figure
               img(src='@/assets/curso/tema4/imagen9.svg')
           
-        h3.text-center Rotación
+        h4.text-center Rotación
         p.text-center Mide la rotación de los colaboradores de la empresa; si es muy alta, es un problema que requiere revisar estrategias de retención, capacitación, entre otros.
 
-      .col-md.tarjeta.fondo4.p-5.mx-2.mb-4.col-lg-4.col-xl-3.col-xxl-3
+      .col-md.tarjeta.fondo4B.p-5.mx-2.mb-4.col-lg-4.col-xl-3.col-xxl-3
         .row.justify-content-center.mb-4
           .col-5.col-xxl-9.col-xl-9.col-lg-8.col-md-7.col-sm-5
             figure
               img(src='@/assets/curso/tema4/imagen10.svg')
           
-        h3.text-center Conversión
+        h4.text-center Conversión
         p.text-center Mide la cantidad de personas que se convierten en clientes potenciales de la organización.
     p.my-5(data-aos="fade-right") Características de los indicadores de gestión:
     .row.justify-content-center.align-items-center(data-aos="fade-left")
@@ -283,9 +292,11 @@
           .col-lg-5.col-md-11.col-sm-11.col-12
             figure
               img.mt-4(src='@/assets/curso/tema4/imagen15.png')
-    .row.my-5(data-aos="fade-right")
-      .col-xxl-3.col-xl-4.col-lg-5.col-md-6.col-sm-9.col-10.ps-md-1
-        h4.ps-5.mb-1.fondo17.pb-1 Tipos de acciones de mejora
+    //- .row.my-5(data-aos="fade-right")
+    //-   .col-xxl-3.col-xl-4.col-lg-5.col-md-6.col-sm-9.col-10.ps-md-1
+    //-     h4.ps-5.mb-1.fondo17.pb-1 Tipos de acciones de mejora
+    .h4.mb-4.mt-5(data-aos="zoom-down-right")
+      span.titulo-herramientas Tipos de acciones de mejora
     .row.justify-content-center(data-aos="fade-left")
       .col-xxl-8.col-xl-9.col-lg-10.col-sm-12.col-md-12.col-12
         p.px-2.px-sm-3.py-0.py-sm-1.p-sm-2.p-xxl-3.fondo14.mx-1.mx-sm-2.mx-xxl-3.margenadicional Son recursos que se utilizan para aprovechar la productividad, reducir los errores y orientar el camino de la organización hacia la efectividad de los procesos en las unidades administrativas de la organización. Hay muchos modelos de mejora para desafiar los problemas, alcanzar los ideales propuestos, ofrecer control de calidad y mejorar la eficiencia, además de contribuir en la gestión de los procesos.
