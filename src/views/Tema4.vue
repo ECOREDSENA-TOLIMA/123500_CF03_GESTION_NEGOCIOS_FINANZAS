@@ -142,10 +142,10 @@
     p.mb-5(data-aos="fade-right") Un indicador es utilizado para medir algún aspecto de los planes, programas o proyectos en las etapas de planeación de la organización. Esto permite medir verdaderamente hasta qué punto lo que piensan o quieren que suceda realmente sucede. Los indicadores pueden ser tanto cuantitativos como cualitativos; según lo que se necesite medir y de qué manera, se puede ampliar a partir de:
     .row.justify-content-center(data-aos="fade-left")
       .col-12
-        img.nomostrar1.my-2(src='@/assets/curso/tema4/imagencompleta.svg')
-    .row.justify-content-center(data-aos="fade-right")
-      .col-12
-        img.nomostrar2.my-2(src='@/assets/curso/tema4/imagen2.svg')
+        .titulo-sexto.color-acento-contenido
+          p.mb-0 <b>Figura 11. </b> <i>Indicadores de seguimiento y evaluación</i>
+        img.nomostrar1.my-2(src='@/assets/curso/tema4/imagencompleta.svg' alt="En la figura se describen los indicadores de seguimiento y evaluación")
+        img.nomostrar2.my-2(src='@/assets/curso/tema4/imagen2.svg' alt="En la figura se describen los indicadores de seguimiento y evaluación")
 
     //- .row.my-5(data-aos="fade-left")
     //-   .col-xxl-4.col-xl-4.col-lg-5.col-md-7.col-sm-8.col-10.ps-md-1
@@ -157,10 +157,11 @@
     
     .row.justify-content-center(data-aos="fade-right")
       .col-lg-8.col-md-11.col-sm-12.col-12
-        figure.d-lg-flex.d-none
-          img(src='@/assets/curso/tema4/imagen6.svg')
-        figure.d-lg-none.d-flex
-          img(src='@/assets/curso/tema4/imagen5.svg')
+        .titulo-sexto.color-acento-contenido
+          p.mb-0 <b>Figura 12. </b> <i>Perspectivas de una evaluación</i>
+        figure
+          img.d-lg-flex.d-none(src='@/assets/curso/tema4/imagen6.svg' alt='EN la figura se relaccionan las 4 perspectivas de una evaluación: formativa, de procesos, de resultados y de impacto.')
+          img.d-lg-none.d-flex(src='@/assets/curso/tema4/imagen5.svg' alt='EN la figura se relaccionan las 4 perspectivas de una evaluación: formativa, de procesos, de resultados y de impacto.')
     
     p.my-5(data-aos="fade-left") Parte de la importancia de una evaluación formativa es que puede mejorar la probabilidad de éxito de la planeación porque alienta a confirmar la viabilidad y detectar posibles áreas problemáticas desde el principio, al mismo tiempo que promueve la rendición de cuentas durante la implementación.
     //- .row.my-5(data-aos="fade-right")

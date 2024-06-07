@@ -50,7 +50,7 @@
               img.mt-4(src='@/assets/curso/tema1/slider4.png')
     p.text-center.my-5(data-aos="fade-left") Además, el proceso se define a partir de:
     .row.justify-content-center(data-aos="fade-right")
-      .col-xxl-8.col-lg-9.col-md-11
+      .col-xxl-8.col-lg-10.col-md-11.col-12
         .titulo-sexto.color-acento-contenido
           h5 Figura 1. 
           i Proceso administrativo
@@ -66,7 +66,7 @@
     p(data-aos="fade-right") Para que el mundo empresarial conserve su eficiencia en los procesos, se requiere de una buena gestión administrativa, en la que no solo se conformen con un adecuado trabajo, sino que las actividades se produzcan a través de fases y técnicas que le den norte al desempeño de los funcionarios y así alcanzar el cumplimiento de los objetivos y metas trazadas por la empresa.
     p.mb-5(data-aos="fade-right") Aunque las definiciones de los procesos administrativos conducen a la misma finalidad de generar excelencia en las unidades administrativas que conforman una organización, lo cierto es que la importancia de utilizar los procesos administrativos radica en:
     .row.justify-content-center(data-aos="fade-up")
-      .col-xl-8.col-lg-9.col-md-11.col-sm-12.col-12 
+      .col-xl-8.col-lg-9.col-md-11.col-sm-12.col-12.d-lg-flex.d-none
         ImagenInfografica.color-secundario.mb-5
           template(v-slot:imagen)
             figure
@@ -80,6 +80,9 @@
 
           .tarjeta.fondotarjeta.p-3(x="81.5%" y="89%" numero="+")
             p Estudiar y transformar los problemas o circunstancias de riesgo en la empresa en situaciones de oportunidad; por tanto, la creación de secuencias y relaciones que entrega el proceso administrativo ofrece la coordinación y control de actividades en la empresa.
+      .col-12.d-lg-none.d-flex.mb-4
+        figure
+          img(src='@/assets/curso/tema1/InfoB.svg' alt="")
     p.text-center.mb-5(data-aos="fade-right") Aquí, algunas de las ventajas de aplicar el proceso administrativo:
     SlyderF(data-aos="fade-left").my-5(columnas="col-lg-4 col-xl-4")
       .tarjeta-avatar
@@ -113,7 +116,7 @@
           .text-dark.p-4
             p.text-center Potencia el análisis de problemas para su solución.
     p.my-5.text-center(data-aos="fade-left") Ejemplo de proceso administrativo:
-    ImagenInfografica.color-secundario.mb-5(data-aos="fade-right")
+    ImagenInfografica.d-lg-flex.d-none.color-secundario.mb-5(data-aos="fade-right")
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/tema1/infografica2.svg')
@@ -126,6 +129,11 @@
 
       .tarjeta.fondotarjeta.p-3(x="71%" y="22.4%" numero="3")
         p En este sentido, toda empresa u organización que pretenda alcanzar metas debe aplicar un proceso administrativo, sin este es muy difícil lograr los objetivos propuestos. Imagine irse de viaje sin tener nada planeado, sin haber revisado agenda de hoteles, sitios turísticos, zonas de alimentación, entre otros… todo fuera de control; lo mismo sucede con los negocios.
+    .row.mb-5.d-lg-none.d-flex
+      .col-12
+        figure
+          img(src='@/assets/curso/tema1/InfoA.svg' alt="")
+        
     separador
     #politicas.titulo-segundo.color-acento-contenido(data-aos="fade")
       h2 1.1. Políticas organizacionales
@@ -315,11 +323,11 @@
           h2 1.2. Gestión del talento humano
         p.mb-5 El propósito principal de la gestión del talento es crear una fuerza laboral motivada, que permanezca en su empresa a largo plazo, superando a la competencia a través de un sistema integrado de prácticas de gestión del talento que sean difíciles de copiar o imitar. La importancia que tiene el talento humano para la organización es que capitaliza a los empleados, posiblemente, el activo más importante de su empresa.
         .row.justify-content-center
-          .col-xxl-4.col-xl-4.col-lg-5.col-md-10.col-sm-11.col-11.mb-5
-            img(src='@/assets/curso/tema1/figura3.svg')
-    //- .row.mb-5(data-aos="fade-right")
-    //-   .col-auto
-    //-     h4.ps-5.pb-2.mb-0.fondo6 Proceso de gestión del talento
+          .col-xxl-4.col-xl-4.col-lg-5.col-md-10.col-sm-11.col-12.mb-5
+            .titulo-sexto.color-acento-contenido
+              p.mb-0 <b>Figura 2. </b> <i>Gestión del talento humano</i>
+            figure
+              img(src='@/assets/curso/tema1/figura3.svg' alt="La gestión del talento es el alcance completo de los procesos de recursos humanos para atraer, incorporar, desarrollar, motivar y retener empleados de alto rendimiento; está dirigida a mejorar el desempeño empresarial a través de prácticas que hacen que los empleados sean más productivos.")
         
     .h4.mb-4(data-aos="zoom-down-right")
       span.titulo-herramientas Proceso de gestión del talento
@@ -373,30 +381,14 @@
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-md-11.col-lg-9.col-12
         .titulo-sexto.color-acento-contenido
-          p.titulo.pb-0.mb-0 <b>Figura 2. </b> <i>Actividades de la gestión del talento</i>
+          p.titulo.pb-0.mb-0 <b>Figura 3. </b> <i>Actividades de la gestión del talento</i>
         figure
           img.d-none.d-sm-none.d-md-block(src='@/assets/curso/tema1/fig-1a.svg', alt='Imagen que menciona las cuatro actividades que tienen mayor relevancia dentro de la gestión del talento humano: atraer, desarrollar, motivar, retener.')  
           img.d-block.d-md-none(src='@/assets/curso/tema1/fig-1b.svg', alt='Imagen que menciona las cuatro actividades que tienen mayor relevancia dentro de la gestión del talento humano: atraer, desarrollar, motivar, retener.') 
 
-    //- .row.justify-content-center(data-aos="fade-left")
-    //-   .col-xxl-8.col-xxl-8.col-lg-9.col-md-11.col-sm-12.col-12
-    //-     .titulo-sexto.color-acento-contenido
-    //-       h5 Figura 2. 
-    //-       i Actividades de la gestión del talento
-    //-     .row.justify-content-center
-    //-       .col-xxl-3.col-xl-3.col-lg-3.col-md-3.col-sm-3.col-3
-    //-         img(src='@/assets/curso/tema1/actividad1.svg')
-    //-       .col-xxl-3.col-xl-3.col-lg-3.col-md-3.col-sm-3.col-3
-    //-         img(src='@/assets/curso/tema1/actividad2.svg')
-    //-       .col-xxl-3.col-xl-3.col-lg-3.col-md-3.col-sm-3.col-3
-    //-         img(src='@/assets/curso/tema1/actividad3.svg')
-    //-       .col-xxl-3.col-xl-3.col-lg-3.col-md-3.col-sm-3.col-3
-    //-         img(src='@/assets/curso/tema1/actividad4.svg')
-    //- .row.my-5(data-aos="fade-left")
-    //-   .col-auto
-    //-     h4.ps-5.pb-2.mb-0.fondo6 Modelo integrado de gestión de talento humano    
     .h4.mb-4(data-aos="zoom-down-right")
       span.titulo-herramientas Modelo integrado de gestión de talento humano  
+
     p(data-aos="fade-right") Se tiene en cuenta que la gestión del talento necesita transformarse para adaptarse a las últimas tendencias de talento, las disrupciones digitales y las expectativas de los empleados; teniendo en cuenta este ambiente, se diseñan los modelos para gestionar mejor los colaboradores. Por lo tanto, debe poder adaptarse a las necesidades cambiantes de la organización, las expectativas de talento en evolución y el ritmo establecido por los cambios dentro del negocio. 
     p.mb-5(data-aos="fade-right") Esta estructura de componentes es cíclica, teniendo en cuenta el clima interno dentro de la organización y el entorno externo en el que opera. Se describen seguidamente los componentes principales del modelo:
     .row.justify-content-center(data-aos="fade-right")
@@ -424,12 +416,12 @@
       span.titulo-herramientas Beneficios de aplicar gestión de talento humano en las empresas
     p.mb-5(data-aos="fade-right") La empresa no puede asumir que ya tiene cubierta la gestión del talento solo porque tiene recursos humanos en su empresa; por ende, debe gestionarlo, lo cual implica identificar brechas de talento, vacantes, buscar e incorporar a los candidatos adecuados, crecimiento del colaborador a través del desarrollo de habilidades y las capacitaciones necesarias para involucrarlos, retenerlos y motivarlos adecuadamente como piezas fundamentales de la empresa. Es así como el logro de estos procesos de gestión de talento suministra a la organización los siguientes beneficios:
     .row.justify-content-center.mb-4(data-aos="fade-up-left")
-      .titulo-sexto.color-acento-contenido
-        p.titulo.pb-0.mb-0 <b>Figura 3. </b> <i>Pasos gestión del talento humano</i>
-      figure.d-lg-flex.d-none
-        img(src='@/assets/curso/tema1/beneficios1.svg' alt="Imagen que menciona los siguientes cinco pasos que se dan al momento de llevar a cabo un adecuado proceso de gestión del talento humano: 1 Permite a las empresas mantenerse competitivas. 2. La organización se fortalece y está mejor preparada para asumir las amenazas y vulnerabilidades. 3. Induce a la innovación. 4. Apoya la formación de equipos productivos. 5. Reduce la rotación y salida de colaboradores de la organización.")
-      .col-md-8.col-sm-10.d-lg-none.d-flex
-        img(src='@/assets/curso/tema1/beneficios2.svg' alt="Imagen que menciona los siguientes cinco pasos que se dan al momento de llevar a cabo un adecuado proceso de gestión del talento humano: 1 Permite a las empresas mantenerse competitivas. 2. La organización se fortalece y está mejor preparada para asumir las amenazas y vulnerabilidades. 3. Induce a la innovación. 4. Apoya la formación de equipos productivos. 5. Reduce la rotación y salida de colaboradores de la organización.")
+      .col-12.col-lg-12.col-md-12
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 <b>Figura 4. </b> <i>Pasos gestión del talento humano</i>
+        figure
+          img.d-md-flex.d-none(src='@/assets/curso/tema1/beneficios1.svg' alt="Imagen que menciona los siguientes cinco pasos que se dan al momento de llevar a cabo un adecuado proceso de gestión del talento humano: 1 Permite a las empresas mantenerse competitivas. 2. La organización se fortalece y está mejor preparada para asumir las amenazas y vulnerabilidades. 3. Induce a la innovación. 4. Apoya la formación de equipos productivos. 5. Reduce la rotación y salida de colaboradores de la organización.")
+          img.d-md-none.d-flex(src='@/assets/curso/tema1/beneficios2.svg' alt="Imagen que menciona los siguientes cinco pasos que se dan al momento de llevar a cabo un adecuado proceso de gestión del talento humano: 1 Permite a las empresas mantenerse competitivas. 2. La organización se fortalece y está mejor preparada para asumir las amenazas y vulnerabilidades. 3. Induce a la innovación. 4. Apoya la formación de equipos productivos. 5. Reduce la rotación y salida de colaboradores de la organización.")
     //- .row.my-5(data-aos="fade-right")
     //-   .col-auto
     //-     h4.ps-5.pb-2.mb-0.fondo6 Estrategias de gestión de talento humano
@@ -592,9 +584,9 @@
     .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-xxl-10.col-xl-10.col-lg-11.col-md-12.col-sm-12.col-12
         .titulo-sexto.color-acento-contenido
-          p.titulo <b>Figura 4. </b> <i>Función de la gestión comercial</i>
-        img(src='@/assets/curso/tema1/figura4.svg' alt="Esquema que menciona los tres aspectos que hacen presencia en la función de la gestión comercial: ventas, marketing y finanzas.")
-
+          p.mb-0 <b>Figura 5. </b> <i>Función de la gestión comercial</i>
+        img.d-md-flex.d-none(src='@/assets/curso/tema1/figura4.svg' alt="Esquema que menciona los tres aspectos que hacen presencia en la función de la gestión comercial: ventas, marketing y finanzas.")
+        img.d-md-none.d-flex(src='@/assets/curso/tema1/figura4B.svg' alt="Esquema que menciona los tres aspectos que hacen presencia en la función de la gestión comercial: ventas, marketing y finanzas.")
     p(data-aos="fade-right") Algunas de las organizaciones públicas y privadas no tienen un departamento de gestión comercial, solo cuentan con un área de contratación. En tales casos, las actividades previas al contrato están a cargo principalmente del equipo jurídico y técnico, que cuenta con el respaldo de finanzas para la revisión de la oferta.
     p.mb-5(data-aos="fade-left") La gestión comercial ayuda a la empresa con las siguientes tareas esenciales:
 
@@ -686,7 +678,7 @@
     .row.justify-content-center(data-aos="fade-right")
       .col-xxl-6.col-xxl-6.col-lg-7.col-md-11.col-sm-11.col-12
         .titulo-sexto.color-acento-contenido
-          p.titulo.pb-0.mb-0 <b>Figura 5. </b> <i>Balanza comercial.</i>
+          p.titulo.pb-0.mb-0 <b>Figura 6. </b> <i>Balanza comercial.</i>
         img(src='@/assets/curso/tema1/balanza.svg' alt="Figura que relaciona la siguiente fórmula comercial entre las exportaciones e importaciones: balanza comercial = valor de las exportaciones - valor de las importaciones")
       .col-xxl-8.col-xxl-8.col-lg-8.col-md-11.col-sm-11.col-12
         h4.text-center Balanza comercial = valor de las exportaciones - valor de las importaciones

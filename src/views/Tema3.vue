@@ -61,9 +61,9 @@
         p Los planes operativos alinean el plan estratégico de la empresa con el día a día real de la empresa.
         p Dirigir una empresa exitosa requiere prestar atención a cómo se cumplen los objetivos a diario, de ahí la necesidad de una planificación tan compleja.
         p Un plan operativo no debe formularse sin hacer referencia a un plan estratégico, básicamente, es un plan para la implementación de las estrategias contenidas en el plan estratégico, facilitando la coordinación de los recursos de la organización para que se puedan alcanzar las metas y objetivos del plan.
-      .col-xxl-3.col-xl-3.col-lg-4.col-md-6.col-sm-7.col-8
+      .col-xxl-3.col-xl-3.col-lg-4.col-md-10.col-sm-11.col-12
         .titulo-sexto.color-acento-contenido
-          h5 Figura 8. 
+          h5 Figura 9. 
           i Objetivos a corto plazo 
         img(src='@/assets/curso/tema3/figura1.svg' alt="Esquema que menciona los aspectos a tener en cuenta en cuenta al momento de crear un plan operativo, destacando las siguientes acciones que resaltan objetivos a corto plazo: operaciones, objetivos operativos, actividades y tareas.")
     p.mt-5(data-aos="fade-up") La asignación y gestión de recursos es fundamental en la planeación operativa porque indicará el presupuesto que se necesita para poner en marcha el plan, es decir, se identificará cuánto dinero requiere. A veces, se deben hacer ajustes para evitar el fracaso, y otras veces, deberá ajustar su plan para los próximos pasos, porque finalmente ha alcanzado sus límites estratégicos.
@@ -98,12 +98,15 @@
       .col-xxl-9.col-xxl-9.col-lg-8.col-md-11.col-sm-12.col-12
         img(src='@/assets/curso/tema3/imagen1.png')
     p.my-5(data-aos="fade-right") Un plan operativo trata de comprender la visión de la empresa, crear objetivos a corto plazo y establecer los pasos concretos para realizarlos. Seguidamente, se describirán algunos pasos para desarrollar un plan operativo:
-    img(data-aos="fade-left").recoger(src='@/assets/curso/tema3/imagen3.svg')
+       
     .row.justify-content-center(data-aos="fade-up")
       .col-12
+        .titulo-sexto.color-acento-contenido
+          p.mb-0 <b>Figura 10. </b> <i>Pasos para desarrollar un plan operativo</i>
+        img(data-aos="fade-left" src='@/assets/curso/tema3/imagen3.svg')
         figure
-          img.d-none.d-sm-none.d-md-block(src='@/assets/curso/tema3/grupo1.svg', alt='')  
-          img.d-block.d-md-none(src='@/assets/curso/tema3/grupo2.svg', alt='') 
+          img.d-none.d-sm-none.d-md-block(src='@/assets/curso/tema3/grupo1.svg', alt='En la figura de describen los paso para desarrollar un plan operativo.')  
+          img.d-block.d-md-none(src='@/assets/curso/tema3/grupo2.svg', alt='En la figura de describen los paso para desarrollar un plan operativo.') 
 
       //- .col-xxl-6.col-xl-6.col-lg-6.col-md-12.m-0.pe-0
       //-   img.correrder(src='@/assets/curso/tema3/grupo1.svg')

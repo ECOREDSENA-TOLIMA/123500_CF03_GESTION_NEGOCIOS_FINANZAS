@@ -100,7 +100,7 @@
       .col-xxl-1.col-xl-1.col-lg-1.col-md-12.col-sm-12.col-12
       .col-xl-3.col-lg-4.col-md-6.col-sm-7.col-8
         .titulo-sexto.color-acento-contenido
-          h5 Figura 6. 
+          h5 Figura 7. 
           i Objetivos a mediano plazo
         img(src='@/assets/curso/tema2/figura1.svg' alt="Esquema que menciona los aspectos a tener en cuenta  al momento de convertir los planes estratégicos en objetivos específicos; estos son: tácticas, objetivos tácticos, funciones, planes tácticos, procesos organizacionales y políticas.")
     p.my-5.text-center(data-aos="fade-left") Quien lleve a cabo la formulación de un plan táctico tendrá en cuenta los siguientes elementos de la organización:
@@ -292,7 +292,7 @@
     .row.justify-content-center.my-5(data-aos="fade")
       .col-xxl-10.col-xl-10.col-lg-10.col-md-12
         .titulo-sexto.color-acento-contenido.mb-5
-          h5 Figura 7. 
+          h5 Figura 8. 
           i Propósitos de las tácticas
         figure.d-lg-flex.d-none
           img(src='@/assets/curso/tema2/figura2.svg' alt="Esquema que menciona los aspectos relacionados con las tácticas dentro de los objetivos a mediano plazo, los cuales son las estrategias y la evaluación de resultados.")
