@@ -325,9 +325,9 @@
         .row.justify-content-center
           .col-xxl-4.col-xl-4.col-lg-5.col-md-10.col-sm-11.col-12.mb-5
             .titulo-sexto.color-acento-contenido
-              p.mb-0 <b>Figura 2. </b> <i>Gestión del talento humano</i>
+              p.mb-0 <b>Figura 2. </b> <i>Gestión del talento</i>
             figure
-              img(src='@/assets/curso/tema1/figura3.svg' alt="La gestión del talento es el alcance completo de los procesos de recursos humanos para atraer, incorporar, desarrollar, motivar y retener empleados de alto rendimiento; está dirigida a mejorar el desempeño empresarial a través de prácticas que hacen que los empleados sean más productivos.")
+              img(src='@/assets/curso/tema1/figura3.svg' alt="Imagen que menciona lo que significa la gestión del talento humano.")
         
     .h4.mb-4(data-aos="zoom-down-right")
       span.titulo-herramientas Proceso de gestión del talento
@@ -429,7 +429,7 @@
       span.titulo-herramientas Estrategias de gestión de talento humano
     p.mb-5(data-aos="fade-up-left") La gestión estratégica del talento es una necesidad en el entorno actual. La gestión del talento y el capital humano ha llevado a un renacimiento de los elementos: lugar de trabajo-trabajo-trabajador. Hay una serie de elementos y subprocesos que deben trabajar acordes para garantizar el éxito de la organización. Aquí se presentan algunas estrategias para que escoja la más conveniente:
     .titulo-sexto.color-acento-contenido
-      p.titulo.pb-0.mb-0 <b>Tabla 1. </b> <i>Estrategias de gestión del talento humano.</i>
+      p.titulo.pb-0.mb-0 <b>Tabla 1. </b> <i>Estrategias de gestión del talento humano</i>
     .tabla-c(data-aos="fade-right")
       table
         tr
@@ -531,7 +531,7 @@
     .row.justify-content-center(data-aos="fade-left")
       .col-lg-6.col-md-8.col-sm-11.col-12
         .titulo-sexto.color-acento-contenido
-          p.titulo.pb-0.mb-0 <b>Tabla 2. </b> <i>Compromisos de los productos.</i>
+          p.titulo.pb-0.mb-0 <b>Tabla 2. </b> <i>Compromisos de los productos</i>
         table
           tr.align-items-centee.colorborde
             td.colorborde
@@ -678,8 +678,8 @@
     .row.justify-content-center(data-aos="fade-right")
       .col-xxl-6.col-xxl-6.col-lg-7.col-md-11.col-sm-11.col-12
         .titulo-sexto.color-acento-contenido
-          p.titulo.pb-0.mb-0 <b>Figura 6. </b> <i>Balanza comercial.</i>
-        img(src='@/assets/curso/tema1/balanza.svg' alt="Figura que relaciona la siguiente fórmula comercial entre las exportaciones e importaciones: balanza comercial = valor de las exportaciones - valor de las importaciones")
+          p.titulo.pb-0.mb-0 <b>Figura 6. </b> <i>Balanza comercial</i>
+        img(src='@/assets/curso/tema1/balanza.svg' alt="Imagen que relaciona la siguiente fórmula comercial entre las exportaciones e importaciones: Balanza comercial = valor de las exportaciones - valor de las importaciones.")
       .col-xxl-8.col-xxl-8.col-lg-8.col-md-11.col-sm-11.col-12
         h4.text-center Balanza comercial = valor de las exportaciones - valor de las importaciones
     .row.justify-content-center(data-aos="fade-right")

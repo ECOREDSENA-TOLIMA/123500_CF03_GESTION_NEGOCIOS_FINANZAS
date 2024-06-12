@@ -105,8 +105,8 @@
           p.mb-0 <b>Figura 10. </b> <i>Pasos para desarrollar un plan operativo</i>
         img(data-aos="fade-left" src='@/assets/curso/tema3/imagen3.svg')
         figure
-          img.d-none.d-sm-none.d-md-block(src='@/assets/curso/tema3/grupo1.svg', alt='En la figura de describen los paso para desarrollar un plan operativo.')  
-          img.d-block.d-md-none(src='@/assets/curso/tema3/grupo2.svg', alt='En la figura de describen los paso para desarrollar un plan operativo.') 
+          img.d-none.d-sm-none.d-md-block(src='@/assets/curso/tema3/grupo1.svg', alt='Imagen que menciona los seis pasos que se deben tener en cuenta para desarrollar un plan operativo, los cuales son: 1. Analice la visión de la empresa. 2. Defina las metas. 3. Formule las estrategias. 4. Planee las acciones. 5. Asigne los recursos. 6. Monitoree y ajuste.')  
+          img.d-block.d-md-none(src='@/assets/curso/tema3/grupo2.svg', alt='Imagen que menciona los seis pasos que se deben tener en cuenta para desarrollar un plan operativo, los cuales son: 1. Analice la visión de la empresa. 2. Defina las metas. 3. Formule las estrategias. 4. Planee las acciones. 5. Asigne los recursos. 6. Monitoree y ajuste.') 
 
       //- .col-xxl-6.col-xl-6.col-lg-6.col-md-12.m-0.pe-0
       //-   img.correrder(src='@/assets/curso/tema3/grupo1.svg')
@@ -184,7 +184,7 @@
         iframe(width="560" height="315" src="https://www.youtube.com/embed/1yAOUdaaYxc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     p.my-5(data-aos="fade-right") Entendiéndose la planeación estratégica como la madre de todos los planes de una organización, se establece a continuación un versus diferenciador entre lo que entrega cada una de ellas, una vez se diseñen y se efectúen.
     .titulo-sexto.color-acento-contenido
-      p.titulo.pb-0.mb-0 <b>Tabla 6. </b> <i>Planeación operacional.</i>
+      p.titulo.pb-0.mb-0 <b>Tabla 6. </b> <i>Planeación estratégica vs planeación operativa</i>
     .tabla-c(data-aos="fade-up")
       table
         tr
@@ -218,7 +218,7 @@
         .cajon.color-primario.p-4.mb-4.fondo16
           p En resumen, la planificación operativa es decidir qué se debe hacer para lograr los objetivos tácticos, mediante planes con objetivos a corto plazo que pueden contar con una duración menor a un año, y que, asimismo, este plan puede variar cada año, es estrecho y se enfatiza en las actividades diarias y los niveles funcionales de una dependencia específica de la empresa.
     .titulo-sexto.color-acento-contenido
-      p.titulo.pb-0.mb-0 <b>Tabla 7. </b> <i>Planeación estratégica vs planeación operativa.</i>
+      p.titulo.pb-0.mb-0 <b>Tabla 7. </b> <i>Planeación operacional</i>
     .tabla-c(data-aos="fade")
       table
         tr
@@ -233,8 +233,8 @@
           td.fondoEncabezado 
             h4 Amplitud
         tr
-          td.alineartop Operacional
-          td.bordetabla.alineartop Corto plazo
+          td.alineartop Operacional.
+          td.bordetabla.alineartop Corto plazo.
           td.bordetabla.alineartop Funcionamiento diario de la empresa, traza una hoja de ruta para lograr los objetivos tácticos dentro de un tiempo real.
           td.bordetabla.alineartop Dirigir a las personas a realizar las tareas, año a año, mes a mes y día a día, requeridas en el funcionamiento de la organización.
           td.bordetabla.alineartop Tarea, actividad o función.

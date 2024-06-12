@@ -144,8 +144,8 @@
       .col-12
         .titulo-sexto.color-acento-contenido
           p.mb-0 <b>Figura 11. </b> <i>Indicadores de seguimiento y evaluación</i>
-        img.nomostrar1.my-2(src='@/assets/curso/tema4/imagencompleta.svg' alt="En la figura se describen los indicadores de seguimiento y evaluación")
-        img.nomostrar2.my-2(src='@/assets/curso/tema4/imagen2.svg' alt="En la figura se describen los indicadores de seguimiento y evaluación")
+        img.nomostrar1.my-2(src='@/assets/curso/tema4/imagencompleta.svg' alt="Imagen que hace relación a lo que significan y representan los indicadores, teniendo en cuenta su seguimiento y evaluación.")
+        img.nomostrar2.my-2(src='@/assets/curso/tema4/imagen2.svg' alt="Imagen que hace relación a lo que significan y representan los indicadores, teniendo en cuenta su seguimiento y evaluación.")
 
     //- .row.my-5(data-aos="fade-left")
     //-   .col-xxl-4.col-xl-4.col-lg-5.col-md-7.col-sm-8.col-10.ps-md-1
@@ -160,8 +160,8 @@
         .titulo-sexto.color-acento-contenido
           p.mb-0 <b>Figura 12. </b> <i>Perspectivas de una evaluación</i>
         figure
-          img.d-lg-flex.d-none(src='@/assets/curso/tema4/imagen6.svg' alt='EN la figura se relaccionan las 4 perspectivas de una evaluación: formativa, de procesos, de resultados y de impacto.')
-          img.d-lg-none.d-flex(src='@/assets/curso/tema4/imagen5.svg' alt='EN la figura se relaccionan las 4 perspectivas de una evaluación: formativa, de procesos, de resultados y de impacto.')
+          img.d-lg-flex.d-none(src='@/assets/curso/tema4/imagen6.svg' alt='Imagen que relaciona algunas perspectivas de evaluación, las cuales son: Formativa. Procesos. Resultados. Impacto. Evaluación.')
+          img.d-lg-none.d-flex(src='@/assets/curso/tema4/imagen5.svg' alt='Imagen que relaciona algunas perspectivas de evaluación, las cuales son: Formativa. Procesos. Resultados. Impacto. Evaluación.')
     
     p.my-5(data-aos="fade-left") Parte de la importancia de una evaluación formativa es que puede mejorar la probabilidad de éxito de la planeación porque alienta a confirmar la viabilidad y detectar posibles áreas problemáticas desde el principio, al mismo tiempo que promueve la rendición de cuentas durante la implementación.
     //- .row.my-5(data-aos="fade-right")
@@ -334,18 +334,22 @@
     
     .row.justify-content-center(data-aos="fade-left")
       .col-xxl-10.col-xl-10.col-lg-11
-        img.nomostrar1.my-2(src='@/assets/curso/tema4/imagenentera.svg')
-      .col-md-8.col-sm-8.col-8
-        img.nomostrar2.my-2(src='@/assets/curso/tema4/imagen17.svg')
+        .titulo-sexto.color-acento-contenido.nomostrar1
+          p.mb-0 <b>Figura 13. </b> <i>Tipos de acciones correctivas</i>
+        img.nomostrar1.my-2(src='@/assets/curso/tema4/imagenentera.svg' alt='Imagen que representa las dos acciones correctivas existentes, como son las preventivas y correctivas, las cuales dan como resultado una mejora continua.')
+      .col-md-8.col-sm-10.col-12
+        .titulo-sexto.color-acento-contenido.nomostrar2
+          p.mb-0 <b>Figura 13. </b> <i>Tipos de acciones correctivas</i>
+        img.nomostrar2.my-2(src='@/assets/curso/tema4/imagen17.svg' alt='Imagen que representa las dos acciones correctivas existentes, como son las preventivas y correctivas, las cuales dan como resultado una mejora continua. ')
       .row.justify-content-center
         .col-md-2.col-sm-2.col-2
           img.nomostrar2.my-2(src='@/assets/curso/tema4/mas.svg')
-      .col-md-8.col-sm-8.col-8
+      .col-md-8.col-sm-10.col-12
         img.nomostrar2.my-2(src='@/assets/curso/tema4/imagen18.svg')
       .row.justify-content-center
         .col-md-2.col-sm-2.col-2
           img.nomostrar2.my-2(src='@/assets/curso/tema4/igual.svg')
-      .col-md-8.col-sm-8.col-8
+      .col-md-8.col-sm-10.col-12
         img.nomostrar2.my-2(src='@/assets/curso/tema4/imagen19.svg')
 
     p.my-5(data-aos="fade-right") Ahora bien, las acciones de mejora impulsan los procesos de la organización que suelen estar sujetos a la existencia de problemas y situaciones que ponen en riesgo la rentabilidad de la organización; es por ello que las acciones que se planteen deben conducir a resultados positivos y oportunidades de inhibir el riesgo en los procesos. Las acciones de mejora han de contar con el siguiente esquema:

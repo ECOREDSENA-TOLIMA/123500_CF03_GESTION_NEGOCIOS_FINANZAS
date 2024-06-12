@@ -46,7 +46,7 @@
         .titulo-quinto.color-primario
           h4.color-texto Para elaborar un plan táctico, tenga en cuenta los siguientes elementos:
     .titulo-sexto.color-acento-contenido
-      p.titulo.pb-0.mb-0 <b>Tabla 3. </b> <i>Elementos del plan táctico.</i>
+      p.titulo.pb-0.mb-0 <b>Tabla 3. </b> <i>Elementos del plan táctico</i>
     .tabla-c.my-5(data-aos="fade-right")
       table
         tr
@@ -102,7 +102,7 @@
         .titulo-sexto.color-acento-contenido
           h5 Figura 7. 
           i Objetivos a mediano plazo
-        img(src='@/assets/curso/tema2/figura1.svg' alt="Esquema que menciona los aspectos a tener en cuenta  al momento de convertir los planes estratégicos en objetivos específicos; estos son: tácticas, objetivos tácticos, funciones, planes tácticos, procesos organizacionales y políticas.")
+        img(src='@/assets/curso/tema2/figura1.svg' alt="Esquema que menciona los aspectos a tener en cuenta en cuenta al momento de convertir los planes estratégicos en objetivos específicos; estos son: tácticas, objetivos tácticos, funciones, planes tácticos, procesos organizacionales y políticas.")
     p.my-5.text-center(data-aos="fade-left") Quien lleve a cabo la formulación de un plan táctico tendrá en cuenta los siguientes elementos de la organización:
 
 
@@ -260,7 +260,7 @@
 
     p.mb-5(data-aos="fade-right") Diferencias entre la planeación estratégica y la planeación táctica:
     .titulo-sexto.color-acento-contenido
-      p.titulo.pb-0.mb-0 <b>Tabla 4. </b> <i>Planeación estratégica vs planeación táctica.</i>
+      p.titulo.pb-0.mb-0 <b>Tabla 4. </b> <i>Planeación estratégica vs planeación táctica</i>
     .tabla-c(data-aos="fade-left")
       table.table-bordered
         tr
@@ -300,7 +300,7 @@
           img(src='@/assets/curso/tema2/figura2r.svg' alt="Esquema que menciona los aspectos relacionados con las tácticas dentro de los objetivos a mediano plazo, los cuales son las estrategias y la evaluación de resultados.")            
     p.my-5(data-aos="fade") Por último, los planes tácticos describen la ejecución de acciones específicas que la organización planea usar para lograr lo dispuesto en el plan estratégico, involucran el uso de recursos, el cumplimiento de la línea de tiempo y los criterios en cuanto al paso a paso, cumplimiento de políticas, lineamientos y normativa, fechas de entrega, cantidades y demás. Todo esto conlleva el desarrollo de los objetivos, los cuales estarán plasmados en un lenguaje claro, que defina los resultados que se desean alcanzar. Este documento forja el diseño de estrategias y alcances del plan táctico, que contiene lo ineludible para conseguir los objetivos de la organización.
     .titulo-sexto.color-acento-contenido
-      p.titulo.pb-0.mb-0 <b>Tabla 5. </b> <i>Planes tácticos.</i>
+      p.titulo.pb-0.mb-0 <b>Tabla 5. </b> <i>Planes tácticos</i>
     .tabla-c(data-aos="fade")
       table
         tr
