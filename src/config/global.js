@@ -126,7 +126,7 @@ export default {
       },
       {
         icono: 'fas fa-download',
-        titulo: 'Descargar CFA',
+        titulo: 'Descargar PDF',
         download: 'downloads/CFA_03_123500.zip',
       },
       {
