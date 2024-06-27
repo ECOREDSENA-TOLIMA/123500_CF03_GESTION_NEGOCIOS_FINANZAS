@@ -65,7 +65,7 @@
         .titulo-sexto.color-acento-contenido
           h5 Figura 9. 
           i Objetivos a corto plazo 
-        img(src='@/assets/curso/tema3/figura1.svg' alt="Esquema que menciona los aspectos a tener en cuenta en cuenta al momento de crear un plan operativo, destacando las siguientes acciones que resaltan objetivos a corto plazo: operaciones, objetivos operativos, actividades y tareas.")
+        img(src='@/assets/curso/tema3/figura1.svg' alt="Esquema que menciona los aspectos a tener en cuenta al momento de crear un plan operativo, destacando las siguientes acciones que resaltan objetivos a corto plazo: operaciones, objetivos operativos, actividades y tareas.")
     p.mt-5(data-aos="fade-up") La asignación y gestión de recursos es fundamental en la planeación operativa porque indicará el presupuesto que se necesita para poner en marcha el plan, es decir, se identificará cuánto dinero requiere. A veces, se deben hacer ajustes para evitar el fracaso, y otras veces, deberá ajustar su plan para los próximos pasos, porque finalmente ha alcanzado sus límites estratégicos.
     p.mb-5(data-aos="fade-right") Quien lleve a cabo la formulación de un plan operativo tendrá en cuenta los siguientes elementos de la organización:
     .row.justify-content-center(data-aos="fade-left")
@@ -146,7 +146,7 @@
       .col-xxl-6.col-xl-6.col-lg-6.col-md-10.col-sm-11.col-12
         img.mb-4(src='@/assets/curso/tema3/imagen5.svg')
     .cajon.color-primario.p-4.mb-4.fondo16(data-aos="fade-right")
-      p Una vez se hayan establecido los objetivos a corto plazo, se ha de estimar los medios y recursos necesarios para alcanzar el logro de los resultados. Asimismo, es importante que formule las actividades, estrategias y operaciones que servirán de base para lograr los objetivos propuestos y cambiar la realidad que motivó la construcción del plan operativo.
+      p Una vez se hayan establecido los objetivos a corto plazo, se han de estimar los medios y recursos necesarios para alcanzar el logro de los resultados. Asimismo, es importante que formule las actividades, estrategias y operaciones que servirán de base para lograr los objetivos propuestos y cambiar la realidad que motivó la construcción del plan operativo.
     p.text-center(data-aos="fade-left") A continuación, se presentan varias características de los planes operativos:
     SlyderF.colorchevron.my-5(data-aos="fade-up")(columnas="col-lg-4 col-xl-4 col-md-6 col-sm-12 col-12")
       .tarjeta-avatar

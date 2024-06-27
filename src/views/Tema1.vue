@@ -128,7 +128,7 @@
         p Por lo tanto, necesitará un proceso para lograr su objetivo final: llegar a la meta. Aunque cada carrera es diferente, a su vez, seguirá una serie de etapas para avanzar hacia la llegada final (metas intermedias). A esta serie de etapas, que son comunes en el logro de los objetivos, se les llama proceso administrativo.
 
       .tarjeta.fondotarjeta.p-3(x="71%" y="22.4%" numero="3")
-        p En este sentido, toda empresa u organización que pretenda alcanzar metas debe aplicar un proceso administrativo, sin este es muy difícil lograr los objetivos propuestos. Imagine irse de viaje sin tener nada planeado, sin haber revisado agenda de hoteles, sitios turísticos, zonas de alimentación, entre otros… todo fuera de control; lo mismo sucede con los negocios.
+        p En este sentido, toda empresa u organización que pretenda alcanzar metas debe aplicar un proceso administrativo; sin este, es muy difícil lograr los objetivos propuestos. Imagine irse de viaje sin tener nada planeado, sin haber revisado la agenda de hoteles, sitios turísticos, zonas de alimentación, entre otros… todo fuera de control; lo mismo sucede con los negocios.
     .row.mb-5.d-lg-none.d-flex
       .col-12
         figure
@@ -254,7 +254,7 @@
         .row.px-4(titulo="")
           .col-md-6.mb-4.mb-md-0
             p.text-bold 2. Políticas de valoración de desempeño
-            p El objetivo de estas políticas es identificar áreas de mejora y motivar a los trabajadores para lograr mejores resultados. Por ello, se diseñan políticas que describan la frecuencia y observación de desempeño del colaborador. Las observaciones de desempeño aclaran las responsabilidades de un empleado y establecen metas, además, describen la base para medir el desempeño y los pasos necesarios para recibir una bonificación o un aumento de salario.
+            p El objetivo de estas políticas es identificar áreas de mejora y motivar a los trabajadores para lograr mejores resultados. Por ello, se diseñan políticas que describan la frecuencia y observación de desempeño del colaborador. Las observaciones de desempeño aclaran las responsabilidades de un empleado y establecen metas; además, describen la base para medir el desempeño y los pasos necesarios para recibir una bonificación o un aumento de salario.
         
           .col-md-6
             figure
@@ -325,7 +325,7 @@
         .row.justify-content-center
           .col-xxl-4.col-xl-4.col-lg-5.col-md-10.col-sm-11.col-12.mb-5
             .titulo-sexto.color-acento-contenido
-              p.mb-0 <b>Figura 2. </b> <i>Gestión del talento</i>
+              p.mb-0 <b>Figura 2. </b> <i>Gestión del talento humano</i>
             figure
               img(src='@/assets/curso/tema1/figura3.svg' alt="Imagen que menciona lo que significa la gestión del talento humano.")
         
@@ -335,37 +335,37 @@
     SlyderF(data-aos="fade-up").my-5(columnas="col-xl-4 col-lg-6")
       .tarjeta-avatar
         img.imgsize(src='@/assets/curso/tema1/slider4-1.svg')
-        .tarjeta.otra3.color-primario
+        .tarjeta.color-primario
           .text-dark.p-4
             span.text-bold Habilidades que necesita la organización: 
             span debe determinar qué tipo de contrataciones necesita y qué requisitos deben cumplir, describir las habilidades que se requieren para el desempeño del cargo, así como los conocimientos técnicos o específicos del área de trabajo. Se sugiere que, antes de contratar una nueva persona, se considere el talento humano actual, es decir, los ascensos, partiendo de la experiencia y la antigüedad que ya posee.
       .tarjeta-avatar
         img.imgsize(src='@/assets/curso/tema1/slider4-2.svg')
-        .tarjeta.otra3.color-primario
+        .tarjeta.color-primario
           .text-dark.p-4
             span.text-bold Reclutar al talento humano apropiado: 
             span utilice las herramientas necesarias para dar a conocer las vacantes que ofrece la empresa y los requisitos que se exigen; para ello, cree anuncios y publíquelos en los principales sitios de trabajo. Se recomienda realizar evaluaciones de personalidad, referencias y pruebas que requieran que los candidatos se desempeñen en situaciones de la vida real. Brinde la oportunidad de trabajo a las mejores opciones.
       .tarjeta-avatar
         img.imgsize(src='@/assets/curso/tema1/slider4-3.svg')
-        .tarjeta.otra3.color-primario
+        .tarjeta.color-primario
           .text-dark.p-4
             span.text-bold Incorporación y organización del trabajo: 
-            span una vez el colaborador es parte de la empresa, el área de talento humano orienta y capacita en los procesos de la labor para que esté listo. Entregue tareas que pueda desarrollar, programe sesiones de capacitación y asigne empleados actuales para ayudar a los nuevos trabajadores a instalarse
+            span una vez el colaborador es parte de la empresa, el área de talento humano orienta y capacita en los procesos de la labor para que esté listo. Entregue tareas que pueda desarrollar, programe sesiones de capacitación y asigne empleados actuales para ayudar a los nuevos trabajadores a instalarse.
       .tarjeta-avatar
         img.imgsize(src='@/assets/curso/tema1/slider4-4.svg')
-        .tarjeta.otra3.color-primario
+        .tarjeta.color-primario
           .text-dark.p-4
             span.text-bold Actualización de conocimientos: 
             span es más importante mantener capacitado y desarrollando habilidades al talento humano contratado, ya que será mucho más fácil ascender a una persona que conoce ya el negocio que los costos que genera reclutar nuevo personal y capacitarlo para el cargo disponible.
       .tarjeta-avatar
         img.imgsize(src='@/assets/curso/tema1/slider4-5.svg')
-        .tarjeta.otra3.color-primario
+        .tarjeta.color-primario
           .text-dark.p-4
             span.text-bold Efectúe evaluaciones de desempeño: 
             span verifique el desempeño de los empleados con regularidad, esto le permite ver si los trabajadores pueden administrar responsabilidades adicionales, además de verificar el cumplimiento de las actividades encomendadas para el logro de los objetivos de la empresa.
       .tarjeta-avatar
         img.imgsize(src='@/assets/curso/tema1/slider4-6.svg')
-        .tarjeta.otra3.color-primario
+        .tarjeta.color-primario
           .text-dark.p-4
             span.text-bold Conserve a su mejor talento: 
             span la mayoría de las empresas cuentan con los medios para retener a los colaboradores potenciales, haciendo que estos trabajen motivados en la labor encomendada, ofreciéndoles beneficios y compensaciones por las metas alcanzadas, motivando y resaltando los logros y actividades en las que se desempeñó eficientemente, asegurando la satisfacción laboral y mejorando la cultura de la empresa. 
@@ -506,14 +506,14 @@
               figure
                 img(src='@/assets/curso/tema1/imagen11.svg')
             .col-md-7.mb-4.mb-md-4
-              p Necesita saber cómo colaborador cuáles serán sus obligaciones dentro de la entidad, para ello, lo que se describe en el manual de funciones, adicional a la información que entrega el líder de área, quien además le puede adicionar ciertas responsabilidades de acuerdo al cargo que ocupe.
+              p Necesita saber cómo colaborador, cuáles serán sus obligaciones dentro de la entidad, para ello, lo que se describe en el manual de funciones, adicional a la información que entrega el líder de área, quien además le puede adicionar ciertas responsabilidades de acuerdo al cargo que ocupe.
 
           .row(numero="4" titulo="Comunicarse con los empleados")
             .col-md-5.mb-4
               figure
                 img(src='@/assets/curso/tema1/imagen12.svg')
             .col-md-7
-              p No olvide que interactuar como equipo mantiene la claridad de lo que se desea lograr y asimismo el colaborador entiende que la exigencia está ligada con el desempeño que se espera de él. Hable con ellos sobre sus objetivos profesionales para asegurarse de que su empresa esté creando las oportunidades adecuadas.
+              p No olvide que interactuar como equipo mantiene la claridad de lo que se desea lograr y, asimismo, el colaborador entiende que la exigencia está ligada con el desempeño que se espera de él. Hable con ellos sobre sus objetivos profesionales para asegurarse de que su empresa esté creando las oportunidades adecuadas.
 
       .col-lg-6.col-md-11.col-sm-11.col-12.mt-3
         img(src='@/assets/curso/tema1/imagen8.png')
@@ -735,7 +735,7 @@
     //-     h4.ps-5.pb-2.mb-0.fondo6 Los acuerdos comerciales
     .h4.mb-4.mt-5(data-aos="zoom-down-right")
       span.titulo-herramientas Los acuerdos comerciales
-    p.mb-5(data-aos="fade-left") Los acuerdos comerciales pueden crear oportunidades para ayudar a hacer crecer la economía. Establecen reglas para las empresas que participan de estos acuerdos y que buscan hacer negocios en los mercados de todo el mundo, mediante la reducción de las barreras a las exportaciones, la protección de los intereses y la mejora del estado de derecho en los países socios del acuerdo comercial. Hay muchos tipos de acuerdos comerciales, incluyendo: 
+    p.mb-5(data-aos="fade-left") Los acuerdos comerciales pueden crear oportunidades para ayudar a hacer crecer la economía. Establecen reglas para las empresas que participan de estos acuerdos y que buscan hacer negocios en los mercados de todo el mundo, mediante la reducción de las barreras a las exportaciones, la protección de los intereses y la mejora del Estado de derecho en los países socios del acuerdo comercial. Hay muchos tipos de acuerdos comerciales, incluyendo: 
     .tarjeta.fondo2.p-4.mb-5(data-aos="fade-right")
       SlyderA(tipo="b")
         .row.justify-content-around

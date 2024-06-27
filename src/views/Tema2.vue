@@ -82,7 +82,7 @@
           th
             h4 Recursos
           td 
-            p Establecer todos los recursos que puede reunir para lograr los objetivos de la organización; estos pueden ser recursos humanos, físicos, entre otros…
+            p Establecer todos los recursos que puede reunir para lograr los objetivos de la organización; estos pueden ser recursos humanos, físicos, entre otros.
         tr
           th 
             h4 <i>Marketing</i>
@@ -102,7 +102,7 @@
         .titulo-sexto.color-acento-contenido
           h5 Figura 7. 
           i Objetivos a mediano plazo
-        img(src='@/assets/curso/tema2/figura1.svg' alt="Esquema que menciona los aspectos a tener en cuenta en cuenta al momento de convertir los planes estratégicos en objetivos específicos; estos son: tácticas, objetivos tácticos, funciones, planes tácticos, procesos organizacionales y políticas.")
+        img(src='@/assets/curso/tema2/figura1.svg' alt="Esquema que menciona los aspectos a tener en cuenta al momento de convertir los planes estratégicos en objetivos específicos; estos son: tácticas, objetivos tácticos, funciones, planes tácticos, procesos organizacionales y políticas.")
     p.my-5.text-center(data-aos="fade-left") Quien lleve a cabo la formulación de un plan táctico tendrá en cuenta los siguientes elementos de la organización:
 
 
