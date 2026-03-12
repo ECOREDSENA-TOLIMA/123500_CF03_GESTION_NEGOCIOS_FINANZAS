@@ -115,11 +115,6 @@ export default {
         titulo: 'Glosario',
       },
       {
-        nombreRuta: 'complementario',
-        icono: 'far fa-folder-open',
-        titulo: 'Material complementario',
-      },
-      {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
@@ -127,7 +122,7 @@ export default {
       {
         icono: 'fas fa-download',
         titulo: 'Descargar PDF',
-        download: 'downloads/CFA_03_123500.zip',
+        download: 'downloads/CFA3_123500_DU.zip',
       },
       {
         icono: 'fas fa-download',
@@ -145,14 +140,12 @@ export default {
     {
       referencia:
         'Luna, A. (2015). <em>Proceso administrativo.</em> Grupo Editorial Patria.',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/39415?page=59',
+      link: '',
     },
     {
       referencia:
         'Reinoso, J. y Uribe, M. (2009). <em>Los indicadores de gestión y su relación con la cultura organizacional.</em> Sello Editorial Universidad del Tolima.',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/71131?page=17',
+      link: '',
     },
     {
       referencia:
@@ -161,8 +154,7 @@ export default {
     {
       referencia:
         'Torres, Z. (2015). <em>Planeación y control.</em> Grupo Editorial Patria.',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/39408?page=211',
+      link: '',
     },
   ],
   glosario: [
